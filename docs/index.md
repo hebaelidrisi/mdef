@@ -1,6 +1,6 @@
 ## DESIGNING THE FUTURE
 
-(https://raw.githubusercontent.com/hebaelidrisi//mdef/docs/images/smallstoneedited.png)
+![image](https://raw.githubusercontent.com/hebaelidrisi//mdef/docs/images/smallstoneedited.png)
 
 Hello! I'm Heba Elidrisi - an Interior Designer with a passion for creating designs, moments and memories that tell stories and evoke emotion. 
 
