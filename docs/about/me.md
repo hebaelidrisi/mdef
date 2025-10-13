@@ -1,8 +1,5 @@
 # About
 
-![Image loading...](https://raw.githubusercontent.com/hebaelidrisi/Desktop/mdef-template/docs/images/profilepicture.jpg)
-
-
 Hello! I'm Heba Elidrisi - an Interior Designer with a passion for creating designs, moments and memories that tell stories and evoke emotion. 
 
 Inspired by my journey across different corners of the world, I bring my global experiences into everything I create. 
