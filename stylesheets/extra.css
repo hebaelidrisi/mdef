@@ -36,7 +36,19 @@
     font-weight: 500;
 }
 
+/* Center and bold the homepage title */
+.md-typeset h2.home-title {
+    text-align: center;
+    font-weight: bold;
+}
+
 .mdc-typography--body2 {
     font-weight: 300;
     font-size: 14px;
+}
+
+/* Hide site title only on the homepage */
+[data-md-page="index"] .md-header__title,
+[data-md-page="index"] .md-nav__title {
+  display: none;
 }
