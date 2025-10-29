@@ -10,17 +10,12 @@ repo_url: 'https://github.com/fablabbcn/mdef-template'
 
 nav:
   - Home: index.md
+  - Projects:
+      - Design Studio I: projects/design-studio-i.md
+  - Reflections:
+      - Living with your own ideas: projects/reflections-i.md
   - About: about/me.md
-  - Master project:
-      - Initial ideas: project/project.md
-  - Reflections :
-      - Term 1:
-          - Bootcamp: term1/01-Bootcamp.md
-          - AoWS: term1/02-Atlas of Weak Signals.md
-
-      - Term 2:
-          - digi: term1/01-Bootcamp.md
-          - studio: term1/01-Bootcamp.md
+  - Contact: contact.md
 
 
 
