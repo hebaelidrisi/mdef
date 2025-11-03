@@ -2,7 +2,7 @@
 
 ---
 
-## Daily Notes
+
 
 === "October 28"
 
