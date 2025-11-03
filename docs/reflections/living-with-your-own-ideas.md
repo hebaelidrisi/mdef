@@ -30,7 +30,7 @@
 
 === "October 30"
 
-    Add your reflections for October 30 here.
+    <p style="text-align: center;"><strong>TO JUDGE AND BE JUDGED</strong></p>
 
 === "Final Reflections"
 
