@@ -21,3 +21,21 @@
 </div>
 
 
+## Daily Notes
+
+=== "October 28"
+
+    Add your reflections for October 28 here.
+
+=== "October 29"
+
+    Add your reflections for October 29 here.
+
+=== "October 30"
+
+    Add your reflections for October 30 here.
+
+=== "Final Reflections"
+
+    Add your final reflections here.
+
