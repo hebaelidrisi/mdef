@@ -26,7 +26,7 @@
 
 === "October 29"
 
-    Add your reflections for October 29 here.
+    <p style="text-align: center;"><strong>BECOMING SOMETHING ELSE</strong></p>
 
 === "October 30"
 
