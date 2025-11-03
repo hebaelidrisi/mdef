@@ -28,7 +28,7 @@
 
     <p style="text-align: center;"><strong>BECOMING SOMETHING ELSE</strong></p>
 
-    <p style="text-align: center;"><strong>BECOMING EARTH</strong></p>
+    ## BECOMING EARTH
 
     <div class="horizontal-row" markdown>
     ![](../../images/IMG_3918.jpg)
