@@ -8,7 +8,7 @@
 
     <p style="text-align: center;"><strong>BECOMING THE BEST VERSION OF MYSELF</strong></p>
 
-    ## The Aligned Self
+    ## THE ALIGNED SELF
 
     <div class="horizontal-row" markdown>
     ![](../../images/IMG_3889.jpg)
@@ -16,7 +16,7 @@
     ![](../../images/IMG_3891.jpg)
     </div>
 
-    ## The Distraction Filter
+    ## THE DISTRACTION FILTER
 
     <div class="horizontal-row" markdown>
     ![](../../images/IMG_3895.jpg)
