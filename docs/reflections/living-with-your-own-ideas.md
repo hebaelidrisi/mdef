@@ -28,6 +28,14 @@
 
     <p style="text-align: center;"><strong>BECOMING SOMETHING ELSE</strong></p>
 
+    <p style="text-align: center;"><strong>BECOMING EARTH</strong></p>
+
+    <div class="horizontal-row" markdown>
+    ![](../../images/IMG_3918.jpg)
+    ![](../../images/IMG_3921.jpg)
+    ![](../../images/IMG_3925.jpg)
+    </div>
+
 === "October 30"
 
     <p style="text-align: center;"><strong>TO JUDGE AND BE JUDGED</strong></p>
