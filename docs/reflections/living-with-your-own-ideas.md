@@ -34,5 +34,5 @@
 
 === "Final Reflections"
 
-    Add your final reflections here.
+    <p style="text-align: center;"><strong>FINAL REFLECTIONS</strong></p>
 
