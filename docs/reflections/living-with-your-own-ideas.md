@@ -72,7 +72,7 @@
 
     <p style="text-align: center;"><strong>FINAL REFLECTIONS</strong></p>
 
-    Oftentimes, when hearing the word 'prosthesis', our minds immediately think of externally added parts used to replace or support body parts that are missing or non-functioning properly. While the term itself is neutral in clinical contexts, in everyday language it often carries negative connotations, implying disability, artificiality, or weakness. However, what we rarely consider is the potential of a prosthesis as a tool of transformation, a way to explore desired changes to our humanly appearance. Must prostheses always be purely functional? And if the common answer is yes, then who decided that? As humans living in an age of rapidly developing technology and bodily innovation, we should be able to challenge the standards that society has set around the idea of what a prosthesis can be. 
+    Oftentimes, when hearing the word 'prosthesis', our minds immediately think of externally added parts used to replace or support body parts that are missing or not functioning properly. While the term itself is neutral in clinical contexts, in everyday language it often carries negative connotations, implying disability, artificiality, or weakness. However, what we rarely consider is the potential of a prosthesis as a tool of transformation, a way to explore desired changes to our humanly appearance. Must prostheses always be purely functional? And if the common answer is yes, then who decided that? As humans living in an age of rapidly developing technology and bodily innovation, we should be able to challenge the standards that society has set around the idea of what a prosthesis can be. 
 
      
 
