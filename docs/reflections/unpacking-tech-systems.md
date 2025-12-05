@@ -17,5 +17,13 @@
 
 === "The Machine Paradox"
 
-    Content for The Machine Paradox goes here.
+    ### Video
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+        <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://drive.google.com/file/d/1ufmgwQTAlXusmx9v1ZrRUB4JBQTVwE7E/preview" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    ### Presentation
+
+    - [Presentation](https://docs.google.com/presentation/d/15L3aPrOG1Eg2wkkGKGjhqTKlLL-P-4r6/edit?usp=share_link&ouid=117541423030685553140&rtpof=true&sd=true)
 
