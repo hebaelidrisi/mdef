@@ -40,30 +40,27 @@
 
         <!-- Page 1 -->
         <div class="page">
+            <img src="../images/page 1 the machine paradox.jpg" style="width:100%; height:auto; object-fit:contain;">
         </div>
 
         <!-- Page 2 -->
         <div class="page">
+            <img src="../images/pages 2-3 brainstorming.jpg" style="width:100%; height:auto; object-fit:contain;">
         </div>
 
         <!-- Page 3 -->
         <div class="page">
+            <img src="../images/pages 4-5 presenting.jpg" style="width:100%; height:auto; object-fit:contain;">
         </div>
 
         <!-- Page 4 -->
         <div class="page">
+            <img src="../images/pages 6-7 prototyping.jpg" style="width:100%; height:auto; object-fit:contain;">
         </div>
 
         <!-- Page 5 -->
         <div class="page">
-        </div>
-
-        <!-- Page 6 -->
-        <div class="page">
-        </div>
-
-        <!-- Page 7 -->
-        <div class="page">
+            <img src="../images/page 8 meluza.jpg" style="width:100%; height:auto; object-fit:contain;">
         </div>
 
     </div>
