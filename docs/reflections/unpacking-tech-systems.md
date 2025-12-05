@@ -31,7 +31,7 @@
 
     ### Presentation
 
-    - [Presentation](https://docs.google.com/presentation/d/15L3aPrOG1Eg2wkkGKGjhqTKlLL-P-4r6/edit?usp=share_link&ouid=117541423030685553140&rtpof=true&sd=true)
+    - ['Meluza' - The Deceptive Machine](https://docs.google.com/presentation/d/15L3aPrOG1Eg2wkkGKGjhqTKlLL-P-4r6/edit?usp=share_link&ouid=117541423030685553140&rtpof=true&sd=true)
 
     ### Zine
 
