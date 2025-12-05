@@ -537,6 +537,71 @@
 <li><a href="https://docs.google.com/presentation/d/15L3aPrOG1Eg2wkkGKGjhqTKlLL-P-4r6/edit?usp=share_link&amp;ouid=117541423030685553140&amp;rtpof=true&amp;sd=true">Presentation</a></li>
 </ul>
 <h3 id="zine">Zine<a class="headerlink" href="#zine" title="Permanent link">&para;</a></h3>
+<p><!-- Flipbook container -->
+<div id="book" style="width: 800px; height: 500px; margin: 2rem auto;"></p>
+<div class="codehilite"><pre><span></span><code>&lt;!-- Page 1 --&gt;
+&lt;div class=&quot;page&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- Page 2 --&gt;
+&lt;div class=&quot;page&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- Page 3 --&gt;
+&lt;div class=&quot;page&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- Page 4 --&gt;
+&lt;div class=&quot;page&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- Page 5 --&gt;
+&lt;div class=&quot;page&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- Page 6 --&gt;
+&lt;div class=&quot;page&quot;&gt;
+&lt;/div&gt;
+
+&lt;!-- Page 7 --&gt;
+&lt;div class=&quot;page&quot;&gt;
+&lt;/div&gt;
+</code></pre></div>
+
+</div>
+<p><!-- Load jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script></p>
+<p><!-- Load Turn.js -->
+<script src="../js/turn.js"></script></p>
+<p><!-- Create 2-page book -->
+<script>
+document.addEventListener(&ldquo;DOMContentLoaded&rdquo;, function () {
+    $(&ldquo;#book&rdquo;).turn({
+        width: 800,
+        height: 500,
+        autoCenter: true,
+        display: &ldquo;double&rdquo;,     // ← two-page layout
+        gradients: true,       // nice shading effect
+        elevation: 50          // stronger page flip realism
+    });
+});
+</script></p>
+<p><style>
+.page {
+    background-color: #cbcaccff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,.15);
+    font-family: sans-serif;
+}</p>
+<p>.page-img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;       /* fills the page width, but&hellip; <em>/
+    height: auto;      /</em> &hellip;maintains aspect ratio <em>/
+    object-fit: contain; /</em> prevents overflow in any direction */
+    display: block;
+}
+</style></p>
 </div>
 </div>
                 
@@ -547,7 +612,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="December 5, 2025 15:07:37 UTC">December 5, 2025</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="December 5, 2025 15:20:49 UTC">December 5, 2025</span>
     
   </small>
 </div>
