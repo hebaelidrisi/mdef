@@ -35,3 +35,73 @@
 
     ### Zine
 
+    <!-- Flipbook container -->
+    <div id="book" style="width: 800px; height: 500px; margin: 2rem auto;">
+
+        <!-- Page 1 -->
+        <div class="page">
+        </div>
+
+        <!-- Page 2 -->
+        <div class="page">
+        </div>
+
+        <!-- Page 3 -->
+        <div class="page">
+        </div>
+
+        <!-- Page 4 -->
+        <div class="page">
+        </div>
+
+        <!-- Page 5 -->
+        <div class="page">
+        </div>
+
+        <!-- Page 6 -->
+        <div class="page">
+        </div>
+
+        <!-- Page 7 -->
+        <div class="page">
+        </div>
+
+    </div>
+
+    <!-- Load jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Load Turn.js -->
+    <script src="../js/turn.js"></script>
+
+    <!-- Create 2-page book -->
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        $("#book").turn({
+            width: 800,
+            height: 500,
+            autoCenter: true,
+            display: "double",     // ← two-page layout
+            gradients: true,       // nice shading effect
+            elevation: 50          // stronger page flip realism
+        });
+    });
+    </script>
+
+    <style>
+    .page {
+        background-color: #cbcaccff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,.15);
+        font-family: sans-serif;
+    }
+
+    .page-img {
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;       /* fills the page width, but... */
+        height: auto;      /* ...maintains aspect ratio */
+        object-fit: contain; /* prevents overflow in any direction */
+        display: block;
+    }
+    </style>
