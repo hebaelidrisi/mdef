@@ -8,6 +8,8 @@
 
     ### *(13-inch, Late 2009) No. A1181*
 
+    ![](../images/macbook.jpg)
+
     - [Forensic Report](https://hackmd.io/@M_mbpDG9RfCkv3Hh2okOvw/BkdWfLolbe)
     - [Inventory](https://docs.google.com/spreadsheets/d/1nhxFCAaLnu5iB0xfygtxfu7oa6Qrs6oYqWyNHF1m7AE/edit?usp=share_link)
 
