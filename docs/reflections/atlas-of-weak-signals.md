@@ -2,9 +2,9 @@
 
 ---
 
-Group Atlas of Weak Signal
+## Group Atlas of Weak Signal
 
-Gruppo: Beste, Ayal, Agnese, Max, Heba, Aiman
+*Group: Beste, Ayal, Agnese, Max, Heba, Aiman*
 
 **Poison Pilling**
 
