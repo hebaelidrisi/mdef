@@ -26,5 +26,11 @@
 
 === "AOWS 2"
 
-    Content coming soon.
+## Group Atlas of Weak Signals
+
+    ### AOWS 2 (*December 2025*)
+
+    *Group: Beste, Ayal, Agnese, Max, Heba, Aiman*
+
+    **Open-Source Sufficiency**
 
