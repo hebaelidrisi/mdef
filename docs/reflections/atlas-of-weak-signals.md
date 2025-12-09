@@ -33,3 +33,6 @@
 *Group: Beste, Ayal, Agnese, Max, Heba, Aiman*
 
 **Open-Source Sufficiency**
+
+ ![](../group-aows-2.jpeg)
+ 
