@@ -26,12 +26,12 @@
 
 === "AOWS 2"
 
-## Group Atlas of Weak Signals
+    ## Group Atlas of Weak Signals
 
-### AOWS 2 (*December 2025*)
+    ### AOWS 2 (*December 2025*)
 
-*Group: Beste, Ayal, Agnese, Max, Heba, Aiman*
+    *Group: Beste, Ayal, Agnese, Max, Heba, Aiman*
 
-**Open-Source Sufficiency**
+    **Open-Source Sufficiency**
 
- ![](../group-aows-2.png)
+    ![](../images/group%20aows%202.pnggroup-aows-2.png)
