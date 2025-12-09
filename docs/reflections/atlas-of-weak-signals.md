@@ -18,5 +18,5 @@ https://chatgpt.com/share/6937e4f3-3b4c-8009-a287-3997a9f7259c
 
 #### Visual representation
 
-![](../images/poison-pilling.jpeg)
+![](../images/data-poison-pilling-visual.jpeg)
 
