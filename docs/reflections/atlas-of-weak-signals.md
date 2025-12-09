@@ -2,7 +2,9 @@
 
 ---
 
-## Group Atlas of Weak Signal
+## Group Atlas of Weak Signals
+
+### AOWS 1 (*October 2025*)
 
 *Group: Beste, Ayal, Agnese, Max, Heba, Aiman*
 
