@@ -34,5 +34,4 @@
 
 **Open-Source Sufficiency**
 
- ![](../group-aows-2.jpeg)
- 
+ ![](../group-aows-2.png)
