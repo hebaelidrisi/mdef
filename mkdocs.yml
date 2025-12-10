@@ -12,7 +12,7 @@ nav:
   - Home: index.md
   - Projects:
       - Design Studio I: projects/design-studio-i.md
-  - Reflections:
+  - MDEF 01:
       - Living with your own ideas: reflections/living-with-your-own-ideas.md
       - Unpacking Tech Systems: reflections/unpacking-tech-systems.md
       - Atlas of Weak Signals: reflections/atlas-of-weak-signals.md
