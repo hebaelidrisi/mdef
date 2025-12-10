@@ -10,9 +10,8 @@ repo_url: 'https://github.com/fablabbcn/mdef-template'
 
 nav:
   - Home: index.md
-  - Projects:
+  - Term 1:
       - Design Studio I: projects/design-studio-i.md
-  - MDEF 01:
       - Living with your own ideas: reflections/living-with-your-own-ideas.md
       - Unpacking Tech Systems: reflections/unpacking-tech-systems.md
       - Atlas of Weak Signals: reflections/atlas-of-weak-signals.md
