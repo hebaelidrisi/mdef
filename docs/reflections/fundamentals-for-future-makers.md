@@ -1,5 +1,5 @@
 === "Summary"
-
+ ## Summary
     The Fundamentals for Future Makers course is our first introduction to fabrication tools and technologies as students in the MDEF program. However, given my background, I was already familiar with some of these technologies and tools from my undergraduate studies. Nevertheless, it was useful to have a course like this to serve as a refresher on how to use these technologies, since it has been quite a while since I used any of them. I will admit at first I was a little worried I lost my confidence with using them, but just a quick refresher and it felt like no time had passed.
     While I was familiar with certain aspects like laser cutting, 3D printing, 2D & 3D Design, casting and molding, things like working with coding on Arduino, building multimedia experiences on Touchdesigner and biomaterial creation were completely new to me and I was very much fascinated by them. I am very happy we were exposed to them because they defintely opened up a lot of new avenues.
 
@@ -13,6 +13,7 @@
 
 
 === "Arduino & Coding"
+ ## Arduino & Coding
 
     First time ever working with coding and Arduino. Before this class, I never even heard of a software called Arduino.
     At first I was very frustrated with how long it took just to get the program installed on my laptop. I may have also been slightly intimidated by the fact that this is something I have never ventured into at all, not even in the slightest. I was completely out of my comfort zone. Everything was taking much longer for me and it made me feel like I wasn't getting it. But then when I finally got the Barudino LED to flash, it felt great. 
@@ -22,6 +23,7 @@
 
 
 === "2D Design & Fabrication"
+ ## 2D Design & Fabrication
     2D Design and Rhino is something I am very familiar with, so this felt like something I could do with my eyes closed. It was nice to know what was going on after the Arduino session.
     Since I'm already proficient in Rhino, from early on in the session I started looking into the kind of pattern I wanted to make. Did a little research first online and decided I wanted to do a geometric pattern inspired by "mashrabiyas", which are architectural screens with patterns that are characteristic of traditional Islamic architecture. The one I did kind of resembled flower petals and the spacing between the petals was relatively small, but we tested it out on the laser cutter regardless. It was a good test to see if the laser cutter could handle such small tolerances. Somehow it survived, but the edges were very fragile.
 
@@ -34,21 +36,35 @@
 
 
 === "3D Design & Printing"
-    insert
+ ## 3D Design & Printing
+    
+    ![](../images/3d_print_final.jpg)
 
 
 === "CNC Milling"
-    insert
+ ## CNC Milling
+
+    ![](../images/cnc_progress.jpg)
+
+    ![](../images/cnc_final2.jpg)
+
+    ![](../images/cnc_final1.jpg)
 
 
 === "Casting & Molding"
-    insert
+ ## Casting & Molding
+
+   ![](../images/silicone_final.jpg)
 
 
 === "Touchdesigner"
-    insert
+ ## Touchdesigner
+
+ Learning Touchdesigner was overall a very fun class. 
 
 
 === "Biomaterials"
-    insert
+ ## Biomaterials
+
+  ![](../images/biomaterials2.jpg)
 
