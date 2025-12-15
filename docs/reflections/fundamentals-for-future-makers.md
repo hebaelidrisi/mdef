@@ -7,6 +7,7 @@ Over the course of the nine sessions, we worked with several technologies, each 
 Overall, I think I really enjoyed this course because it felt like a good ice breaker in between all the other courses that demanded a lot of brain power and deep thinking. It felt nice to just break away and focus on making things with our hands. Working in small groups was also enjoyable and it made me realize how different our approaches can be to a simple assignment. I think working with Ayal I learnt to achieve a balance between doing something nice but not necessarily complicated. I appreciate how we were assigned simple tasks to learn how to use each technology or tool and had a tangible outcome by the end of each class. 
 One reflection is that I wish we knew from the beginning of the course that every thing we make would somehow connect to the next technology we use because then maybe we could have been more mindful of our design choices. But regardless, a lot of learning from the mistakes and the frustration, but also had a lot of fun!
 
+---
 
 === "Arduino & Coding"
 
