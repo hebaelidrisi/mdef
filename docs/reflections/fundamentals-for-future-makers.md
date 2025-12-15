@@ -1,5 +1,7 @@
 === "Summary"
  
+    ![](../images/summary_fun.jpg)
+
     The Fundamentals for Future Makers course is our first introduction to fabrication tools and technologies as students in the MDEF program. However, given my background, I was already familiar with some of these technologies and tools from my undergraduate studies. Nevertheless, it was useful to have a course like this to serve as a refresher on how to use these technologies, since it has been quite a while since I used any of them. I will admit at first I was a little worried I lost my confidence with using them, but just a quick refresher and it felt like no time had passed.
     While I was familiar with certain aspects like laser cutting, 3D printing, 2D & 3D Design, casting and molding, things like working with coding on Arduino, building multimedia experiences on Touchdesigner and biomaterial creation were completely new to me and I was very much fascinated by them. I am very happy we were exposed to them because they defintely opened up a lot of new avenues.
 
@@ -63,7 +65,7 @@
 
 
  Learning Touchdesigner was overall a very fun class. 
- 
+
 
 
 === "Biomaterials"
