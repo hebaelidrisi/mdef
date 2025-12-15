@@ -18,7 +18,7 @@
     At first I was very frustrated with how long it took just to get the program installed on my laptop. I may have also been slightly intimidated by the fact that this is something I have never ventured into at all, not even in the slightest. I was completely out of my comfort zone. Everything was taking much longer for me and it made me feel like I wasn't getting it. But then when I finally got the Barudino LED to flash, it felt great. 
     I would say I still have a lot to learn when it comes to coding and Arduino, and I wouldn't say I gravitate towards it, but it is defintely something I would like to work on improving. Unfortunately, I don't have any photos or videos of my Barduino working, just a photo of the instructions we were following from the screen while Dani was explaning. 
 
-![](../images/arduino.jpg)
+    ![](../images/arduino.jpg)
 
 
 === "2D Design & Fabrication"
