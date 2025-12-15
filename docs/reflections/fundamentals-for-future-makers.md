@@ -41,6 +41,7 @@
     ![](../images/3d_print_final.jpg)
 
 
+
 === "CNC Milling"
  
 
@@ -57,14 +58,17 @@
    ![](../images/silicone_final.jpg)
 
 
+
 === "Touchdesigner"
 
 
  Learning Touchdesigner was overall a very fun class. 
+ 
 
 
 === "Biomaterials"
 
 
   ![](../images/biomaterials2.jpg)
+
 
