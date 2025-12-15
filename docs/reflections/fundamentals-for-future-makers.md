@@ -39,9 +39,9 @@
 
 === "3D Design & Printing"
  
- 3D Design & Printing is also something I'm very used to working with. 3D printing in particular is something I enjoy doing, even though it can get taxing. As for 3D printing, this is something I needed to brush up on from my undergraduate. 
- Even if we are using the same kind of technology, the settings, programs, and setup for the machine varies in different facilites. So it was good to have this course to make sure we knew how to use these particular machines correctly.
- For the design, we decided to create something on the same theme of the flower petals from the 2D design we laser cut previously. It turned out simple, abstract but pretty!
+    3D Design & Printing is also something I'm very used to working with. 3D printing in particular is something I enjoy doing, even though it can get taxing. As for 3D printing, this is something I needed to brush up on from my undergraduate. 
+    Even if we are using the same kind of technology, the settings, programs, and setup for the machine varies in different facilites. So it was good to have this course to make sure we knew how to use these particular machines correctly.
+    For the design, we decided to create something on the same theme of the flower petals from the 2D design we laser cut previously. It turned out simple, abstract but pretty!
     
     ![](../images/3d_print_final.jpg)
 
@@ -49,8 +49,8 @@
 
 === "CNC Milling"
  
- CNC Milling is a machinery I had touched on in the past but not mastered. I was honestly a little scared of it because the machine was big and intimidating. I think through this step by step walk through it became a little less intimidating, but defintely a couple things to wrap my head around, like the stepover and step down and the importance of running a preview of how the machine will move before sending it to cut.
- For the design, we decided to create organic shapes, almost resembling a mountain, for the flower to sit in.
+    CNC Milling is a machinery I had touched on in the past but not mastered. I was honestly a little scared of it because the machine was big and intimidating. I think through this step by step walk through it became a little less intimidating, but defintely a couple things to wrap my head around, like the stepover and step down and the importance of running a preview of how the machine will move before sending it to cut.
+    For the design, we decided to create organic shapes, almost resembling a mountain, for the flower to sit in.
 
     ![](../images/cnc_progress.jpg)
 
@@ -68,18 +68,18 @@
 
    ![](../images/silicone_final.jpg) 
 
-    ---
+   
 
 
 
 === "Touchdesigner"
 
- Although this was a quick one class, I think we learnt a lot and enjoyed it. Personally, I was really happy we were introduced to the program and given a little crash course in it because I can see myself using it in the future for audiovisual translations and interactive experiences. 
- I'll still need to put a little more time into getting more familiar with the program, but for now this is a good start!
+    Although this was a quick one class, I think we learnt a lot and enjoyed it. Personally, I was really happy we were introduced to the program and given a little crash course in it because I can see myself using it in the future for audiovisual translations and interactive experiences. 
+    I'll still need to put a little more time into getting more familiar with the program, but for now this is a good start!
 
     (video here)
 
- ---
+   
 
 
 
@@ -92,6 +92,6 @@
 
   ![](../images/biomaterials2.jpg)
 
-   ---
+  
 
 
