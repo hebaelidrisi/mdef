@@ -1,7 +1,7 @@
 === "Summary"
  
     ![](../images/summary_fun.jpg)
-
+    
     The Fundamentals for Future Makers course is our first introduction to fabrication tools and technologies as students in the MDEF program. However, given my background, I was already familiar with some of these technologies and tools from my undergraduate studies. Nevertheless, it was useful to have a course like this to serve as a refresher on how to use these technologies, since it has been quite a while since I used any of them. I will admit at first I was a little worried I lost my confidence with using them, but just a quick refresher and it felt like no time had passed.
     While I was familiar with certain aspects like laser cutting, 3D printing, 2D & 3D Design, casting and molding, things like working with coding on Arduino, building multimedia experiences on Touchdesigner and biomaterial creation were completely new to me and I was very much fascinated by them. I am very happy we were exposed to them because they defintely opened up a lot of new avenues.
 
@@ -83,7 +83,7 @@
     Since we had holes in our silicone mold, we decided to cast outside of it not to risk messing it up. We ended up making a material composed of pine resin, spirulina and tea. It actually turned out pretty nice, especially love the dark color! However, for some reason even though its solidifed, its not held together very well and parts of it fall off everytime we try to move it. We think it might be because we put too much alcohol, but we're not exactly sure. It would be fun to try to recreate this material again with different proportions and see if we can address this issue. 
     I defintely see myself going back to the biolab to experiment with different materials and I'm excited to make my own materials!
 
-  ![](../images/biomaterials2.jpg)
+    ![](../images/biomaterials2.jpg)
 
   
 
