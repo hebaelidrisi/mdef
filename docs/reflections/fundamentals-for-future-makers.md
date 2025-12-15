@@ -39,6 +39,9 @@
 
 === "3D Design & Printing"
  
+ 3D Design & Printing is also something I'm very used to working with. 3D printing in particular is something I enjoy doing, even though it can get taxing. As for 3D printing, this is something I needed to brush up on from my undergraduate. 
+ Even if we are using the same kind of technology, the settings, programs, and setup for the machine varies in different facilites. So it was good to have this course to make sure we knew how to use these particular machines correctly.
+ For the design, we decided to create something on the same theme of the flower petals from the 2D design we laser cut previously. It turned out simple, abstract but pretty!
     
     ![](../images/3d_print_final.jpg)
 
@@ -46,6 +49,8 @@
 
 === "CNC Milling"
  
+ CNC Milling is a machinery I had touched on in the past but not mastered. I was honestly a little scared of it because the machine was big and intimidating. I think through this step by step walk through it became a little less intimidating, but defintely a couple things to wrap my head around, like the stepover and step down and the importance of running a preview of how the machine will move before sending it to cut.
+ For the design, we decided to create organic shapes, almost resembling a mountain, for the flower to sit in.
 
     ![](../images/cnc_progress.jpg)
 
@@ -55,6 +60,10 @@
 
 
 === "Casting & Molding"
+    
+    I had previously worked with casting and molding different things like plaster, concrete and resin, but not silicone. 
+    I think the flexibility and qualities of silicone are great for a lot of different uses and I'm glad we were encouraged to work with it because I realize its a great tool for molding!
+    Challenges we faced were that the silicone was leaking from the mold quite a bit and that we decided to keep the laser cut 2D pattern inserted on the side of the mold, which ended up being not such a great decision because it made it very difficult to take out later upon completion. That small pattern caused us a little trouble, but now we know better than to use such a small repetitive pattern when casting silicone.
 
 
    ![](../images/silicone_final.jpg) 
@@ -65,8 +74,10 @@
 
 === "Touchdesigner"
 
+ Although this was a quick one class, I think we learnt a lot and enjoyed it. Personally, I was really happy we were introduced to the program and given a little crash course in it because I can see myself using it in the future for audiovisual translations and interactive experiences. 
+ I'll still need to put a little more time into getting more familiar with the program, but for now this is a good start!
 
- Learning Touchdesigner was overall a very fun class. 
+    (video here)
 
  ---
 
@@ -74,6 +85,10 @@
 
 === "Biomaterials"
 
+    The biomaterials session was probably my favorite one of all the fundamentals sessions. Super fun, experimental and exciting.
+    It was fun to see all the crazy things people were putting into their mixtures, like shrimp shells, and coming up with.
+    Since we had holes in our silicone mold, we decided to cast outside of it not to risk messing it up. We ended up making a material composed of pine resin, spirulina and tea. It actually turned out pretty nice, especially love the dark color! However, for some reason even though its solidifed, its not held together very well and parts of it fall off everytime we try to move it. We think it might be because we put too much alcohol, but we're not exactly sure. It would be fun to try to recreate this material again with different proportions and see if we can address this issue. 
+    I defintely see myself going back to the biolab to experiment with different materials and I'm excited to make my own materials!
 
   ![](../images/biomaterials2.jpg)
 
