@@ -2,7 +2,7 @@
 
 ---
 
-=== "General"
+=== "Summary"
 
     The Fundamentals for Future Makers course is our first introduction to fabrication tools and technologies as students in the MDEF program. However, given my background, I was already familiar with some of these technologies and tools from my undergraduate studies. Nevertheless, it was useful to have a course like this to serve as a refresher on how to use these technologies, since it has been quite a while since I used any of them. I will admit at first I was a little worried I lost my confidence with using them, but just a quick refresher and it felt like no time had passed.
     While I was familiar with certain aspects like laser cutting, 3D printing, 2D & 3D Design, casting and molding, things like working with coding on Arduino, building multimedia experiences on Touchdesigner and biomaterial creation were completely new to me and I was very much fascinated by them. I am very happy we were exposed to them because they defintely opened up a lot of new avenues.
@@ -15,6 +15,7 @@
     One reflection is that I wish we knew from the beginning of the course that every thing we make would somehow connect to the next technology we use because then maybe we could have been more mindful of our design choices. But regardless, a lot of learning from the mistakes and the frustration, but also had a lot of fun!
 
 
+
 === "Arduino & Coding"
 
     First time ever working with coding and Arduino. Before this class, I never even heard of a software called Arduino.
@@ -22,7 +23,6 @@
     I would say I still have a lot to learn when it comes to coding and Arduino, and I wouldn't say I gravitate towards it, but it is defintely something I would like to work on improving. Unfortunately, I don't have any photos or videos of my Barduino working, just a photo of the instructions we were following from the screen while Dani was explaning. 
 
 ![](../images/arduino.jpg)
-
 
 === "2D Design & Fabrication"
     2D Design and Rhino is something I am very familiar with, so this felt like something I could do with my eyes closed. It was nice to know what was going on after the Arduino session.
@@ -35,17 +35,22 @@
     ![](../images/laser_cut_box.jpg)
 
 
+
 === "3D Design & Printing"
     insert
+
 
 === "CNC Milling"
     insert
 
+
 === "Casting & Molding"
     insert
 
+
 === "Touchdesigner"
     insert
+
 
 === "Biomaterials"
     insert
