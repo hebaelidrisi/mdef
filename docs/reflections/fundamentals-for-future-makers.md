@@ -57,7 +57,9 @@
 === "Casting & Molding"
 
 
-   ![](../images/silicone_final.jpg)
+   ![](../images/silicone_final.jpg) 
+
+    ---
 
 
 
@@ -66,11 +68,15 @@
 
  Learning Touchdesigner was overall a very fun class. 
 
+ ---
+
 
 
 === "Biomaterials"
 
 
   ![](../images/biomaterials2.jpg)
+
+   ---
 
 
