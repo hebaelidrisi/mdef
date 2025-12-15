@@ -65,11 +65,7 @@
     I think the flexibility and qualities of silicone are great for a lot of different uses and I'm glad we were encouraged to work with it because I realize its a great tool for molding!
     Challenges we faced were that the silicone was leaking from the mold quite a bit and that we decided to keep the laser cut 2D pattern inserted on the side of the mold, which ended up being not such a great decision because it made it very difficult to take out later upon completion. That small pattern caused us a little trouble, but now we know better than to use such a small repetitive pattern when casting silicone.
 
-
-   ![](../images/silicone_final.jpg) 
-
-   
-
+    ![](../images/silicone_final.jpg) 
 
 
 === "Touchdesigner"
@@ -78,9 +74,6 @@
     I'll still need to put a little more time into getting more familiar with the program, but for now this is a good start!
 
     (video here)
-
-   
-
 
 
 === "Biomaterials"
