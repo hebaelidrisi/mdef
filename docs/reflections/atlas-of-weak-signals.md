@@ -44,6 +44,7 @@
 
 
     **1. Soil Sealing & Rain Management**
+
     *Weak Signal - AOWSMW01: soil sealing and rain as resource*
 
     Soil sealing is the idea that we are suffocating the soil of the Earth by creating an impermeable skin or layer on top of it in order to make way for urban development. As a result, the Earth’s stratum struggles to “breathe” and sustain its natural systems, which also leads to ‘heat island effects’ caused by urbanization. In the modern world, soil sealing is normalized as part of the growth and development that happens in cities, which needs to be challenged. 
@@ -56,6 +57,7 @@
 
 
     **2. The Anthropause**
+
     *Weak Signal - EE02: that during the pandemic when every big city was empty how the animals went back enjoying a world and spaces that belong to them first*
 
     While many viewed the recent COVID-19 pandemic as a tragedy, from a different perspective it was also a moment of liberation for both humans and other species alike. The ‘pause’ in the Anthropocene and in dominant human activities like movement, pollution, consumerism created an ‘Anthropause’.  The forced ‘slow-down’ allowed animals to reclaim urban space, and in turn, the world more freely without the control of humans. Similarly, it was an opportunity for humans to return to the earth, the very fabric of which we are made, allowing the reclamation of our connection to the ecological biosphere and rebuilding our sense of belonging to Earth. 
@@ -64,6 +66,7 @@
 
 
     **3. Authentic and Spurious Frames**
+
     *Weak Signal - AOWS-AK-02 The distance between authentic and spurious frames*
 
     There is no denying the gap that exists between our biological planetary reality and the artificial reality of our modern way of life. In contemporary urban design, we often lose the ability to distinguish between the two as we encounter a “blur effect” where the line between these two concepts disappears. Corporate green walls are a prime example of spurious frames; they act as visual filters through which we perceive reality, lacking the raw honesty of the biosphere and the Earth. 
@@ -74,6 +77,7 @@
 
 
     **4. Agradecemos and Decolonizing Time**
+
     *Weak Signal - AOWS LW02- Agradecemos: Decolonizing time practices — slowness, circularity, ancestral simultaneity*
 
     Agradecemos or “we give thanks” is a ritual of gratitude that helps us shift our mindset; from a mindset of extraction of time by ‘taking it’, to one of mutual reciprocity where we ‘honor it’. While the standard modern clock imposes a system of control and commodification, we can resist the dominant utilitarian relationship with time by allowing ourselves to reconnect with our human core, our biology, and our ecology. Reclaiming biological ways of living that prioritize connection with nature can serve as tools for the decolonization of these time practices. 
@@ -84,6 +88,7 @@
 
 
     **5. Loss of Heritage and Nature**
+
     *Weak Signal - BC increasing dis attachment from heritage because of rapid construction projects and loss of nature*
 
     Rapid urban development can erode the deep cultural and ecological ties humans have to their environment. The removal of the living memory and identity of a community that lives in physical landmarks, traditional shops or communal gathering spots creates a growing sense of alienation. Loss of heritage erases critical anchors of people’s identities. Similarly, when nature is replaced by concrete and spurious material, the authentic frame of human existence is lost. We forget our biological roots and cycles, which form essential parts of our history and identity, and in turn, lose our sense of self. 
