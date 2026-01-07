@@ -6,4 +6,4 @@ I envision my pictorial resembling a museum catalogue that represents the relati
 
 #### Visual draft
 
-<img src="https://example.com/eroded_memory.jpg" width="300" height="200" style="outline: 1px dashed #666;" alt="STRATA DATA UNREADABLE"> 
+<img src="https://example.com/eroded_memory.jpg" width="300" height="200" style="outline: 1px dashed #666;" alt=> 
