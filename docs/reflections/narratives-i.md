@@ -6,4 +6,4 @@ I envision my pictorial resembling a museum catalogue that represents the relati
 
 #### Visual draft
 
-<img src="https://example.com/eroded_memory.jpg" width="300" height="200" style="outline: 1px solid #666;" alt="">
+<img src="https://0.0.0.0/missing_archive.jpg" width="100" height="100" style="display: block; border: 1px solid #dcdcdc;">
