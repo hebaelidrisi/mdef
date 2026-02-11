@@ -43,6 +43,10 @@ extra:
 theme:
   name: material
   logo: images/smallstoneedited.png
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
   favicon: images/smallstoneedited.png
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
@@ -52,17 +56,7 @@ theme:
     # See available fonts at https://fonts.google.com/
     text: Be Vietnam
     code: Cutive Mono
-  features:
-    - instant
-    - navigation.expand
-    - navigation.indexes
-    - navigation.instant
-    # - navigation.prune
-    # - navigation.sections
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
+
 
 plugins:
   - search:
