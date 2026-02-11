@@ -186,3 +186,12 @@
 .md-search__button {
   color: #000000 !important;
 }
+
+/* Forces the name/title and all header text to black */
+.md-header__inner, 
+.md-header__title, 
+.md-header__ellipsis,
+.md-header__topic {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
