@@ -174,3 +174,18 @@
 .md-search__button, .md-header__button {
   color: #000000 !important;
 }
+
+/* 1. Force the entire page background to white */
+body, html {
+  background-color: #ffffff !important;
+}
+
+/* 2. Remove the purple "bar" that appears during scrolling */
+.md-header {
+  background-color: #ffffff !important; /* Changed from transparent to solid white */
+}
+
+/* 3. This specifically targets the 'overscroll' area on mobile/trackpads */
+header {
+  background-color: #ffffff !important;
+}
