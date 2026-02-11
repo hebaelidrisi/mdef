@@ -42,17 +42,16 @@ extra:
 
 theme:
   name: material
+  logo: images/smallstoneedited.png
+  favicon: images/smallstoneedited.png
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    primary: light grey
-    accent: light grey
+    primary: white
+    accent: white
   font:
     # See available fonts at https://fonts.google.com/
     text: Be Vietnam
     code: Cutive Mono
-  icon:
-    logo: images/smallstoneedited.png
-  favicon: images/favicon.svg
   features:
     - instant
     - navigation.expand
