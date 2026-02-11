@@ -162,7 +162,11 @@
 }
 
 /* 3. Keep the Microchip Icon visible and Black */
-.md-logo img, 
+.md-logo img {
+  height: 2.5rem; /* Adjust this number to make it bigger or smaller */
+  width: auto;
+  filter: none !important; /* This removes the 'black out' effect we added earlier */
+}
 .md-logo svg,
 .md-header__button.md-logo {
   filter: brightness(0) !important;
