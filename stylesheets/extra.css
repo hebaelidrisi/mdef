@@ -151,12 +151,15 @@
 /* 1. Hide the entire right side and center of the header */
 .md-header__title, 
 .md-header__source, 
+.md-source,
+a.md-header__button.md-source, 
 .md-search,
 .md-header__inner > .md-header__topic,
 .md-header__inner > .md-header__ellipsis {
     display: none !important;
     visibility: hidden !important;
     opacity: 0 !important;
+    width: 0 !important;
 }
 
 /* 2. Fix the Logo (No boundary, no distortion) */
