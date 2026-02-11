@@ -193,3 +193,31 @@ a.md-header__button.md-source,
 .md-nav__item--site {
   display: none !important;
 }
+
+/* --- THE ULTIMATE HIDE --- */
+
+/* 1. This kills the GitHub Repo button everywhere (header, sidebar, drawer) */
+[class*="md-source"], 
+.md-source, 
+.md-header__source, 
+.md-nav__source {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+/* 2. This kills the "Heba Elidrisi" text everywhere it appears as a title */
+[class*="md-header__title"], 
+[class*="md-nav__title"],
+.md-logo + .md-header__title,
+.md-header__topic {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* 3. This forces the stone logo to be visible without a box around it */
+.md-logo img {
+    height: 3.5rem !important;
+    width: auto !important;
+    filter: none !important;
+}
