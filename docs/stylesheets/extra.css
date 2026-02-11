@@ -84,12 +84,6 @@
     font-size: 14px;
 }
 
-/* Hide site title only on the homepage */
-[data-md-page="index"] .md-header__title,
-[data-md-page="index"] .md-nav__title {
-  display: none;
-}
-
 .image-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -148,20 +142,6 @@
   .horizontal-row img { max-width: 100%; height: 120px; }
 }
 
-/* 1. Hide the entire right side and center of the header */
-.md-header__title, 
-.md-header__source, 
-.md-source,
-a.md-header__button.md-source, 
-.md-search,
-.md-header__inner > .md-header__topic,
-.md-header__inner > .md-header__ellipsis {
-    display: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
-    width: 0 !important;
-}
-
 /* 2. Fix the Logo (No boundary, no distortion) */
 .md-logo img {
     height: 3.0rem !important; /* Smaller size to prevent overlapping content below */
@@ -194,30 +174,52 @@ a.md-header__button.md-source,
   display: none !important;
 }
 
-/* --- THE ULTIMATE HIDE --- */
+/* --- THE ULTIMATE HIDE: HEADER & SIDEBAR CLEANUP --- */
 
-/* 1. This kills the GitHub Repo button everywhere (header, sidebar, drawer) */
+/* 1. Kill the GitHub Repo button everywhere */
 [class*="md-source"], 
 .md-source, 
 .md-header__source, 
-.md-nav__source {
+.md-nav__source,
+a.md-header__button.md-source {
     display: none !important;
     visibility: hidden !important;
     opacity: 0 !important;
+    width: 0 !important;
 }
 
-/* 2. This kills the "Heba Elidrisi" text everywhere it appears as a title */
-[class*="md-header__title"], 
-[class*="md-nav__title"],
-.md-logo + .md-header__title,
-.md-header__topic {
+/* 2. Kill "Heba Elidrisi..." text in Header, Sidebar, and Mobile Drawer */
+.md-header__title,
+.md-header__topic,
+.md-header__ellipsis,
+.md-header__inner span,
+.md-nav__title,
+.md-nav__item--site,
+[class*="md-header__title"],
+[class*="md-nav__title"] {
     display: none !important;
     visibility: hidden !important;
+    opacity: 0 !important;
+    width: 0 !important;
 }
 
-/* 3. This forces the stone logo to be visible without a box around it */
+/* 3. Fix the Stone Logo (No boundary, no distortion) */
 .md-logo img {
-    height: 3.5rem !important;
-    width: auto !important;
+    height: 3.2rem !important; /* Adjusted size to look balanced */
+    width: auto !important; 
     filter: none !important;
+    border: none !important;
+    background: transparent !important;
+}
+
+/* 4. Ensure header is pure white and the container is empty */
+.md-header {
+    background-color: #ffffff !important;
+    box-shadow: none !important;
+}
+
+.md-header__button.md-logo {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
 }
