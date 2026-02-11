@@ -194,3 +194,9 @@
     padding: 0 !important;
     height: 0 !important;
 }
+
+.md-header__button.md-logo {
+    display: flex !important;
+    pointer-events: auto !important; /* Ensures the click is registered */
+    z-index: 100 !important;        /* Keeps the link on the top layer */
+}
