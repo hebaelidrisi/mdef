@@ -26,13 +26,13 @@ One thing I really appreciated was the push to work with the Raspberry Pico, bec
 
 ![](../images/beste-solder.jpeg)
 
-Beste & I worked on connecting the Raspberry Pico, getting the LDR sensor to give analog outputs of the sunlight levels and getting that information on to a server online. We found the code and the schematic diagram of how to connect the LDR sensor to the raspberry pico [on this website](https://docs.sunfounder.com/projects/pico-2w-kit/en/latest/pyproject/py_photoresistor.html).
+Beste & I worked on getting the Raspberry Pico connected, getting the LDR sensor to give analog outputs of the local sunlight levels and getting that information onto an online server. We found the code and the schematic diagram of how to connect the LDR sensor to the raspberry pico [on this website](https://docs.sunfounder.com/projects/pico-2w-kit/en/latest/pyproject/py_photoresistor.html).
 
 ![](../images/ldr-schematic.jpeg)
 ![](../images/pico-ldr-connect.jpeg)
 ![](../images/readings-send.jpeg)
 
-The information hosted on the online IP address was then used in a three-agent system built on Open AI's Agent Builder. The system logic is broken down in a diagram below along with the prompts we gave to each agent to get the output. 
+The information hosted on the online server was then served through an MCP (Model Context Protocol) to the three-agent system built on Open AI's Agent Builder. The system logic is broken down in a diagram below along with the prompts we gave to each agent to get the output. 
 
 ![](../images/agent-diagram.jpeg)
 ![](../images/agent-prompt-1.png)
