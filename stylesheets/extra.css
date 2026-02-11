@@ -180,3 +180,13 @@
     background-color: #ffffff !important;
     box-shadow: none !important;
 }
+
+/* Hide the site title/name at the top of the sidebar navigation */
+.md-nav__title[for="__drawer"] {
+  display: none !important;
+}
+
+/* Optional: If there is still a gap, this removes the padding left behind */
+.md-nav__item--site {
+  display: none !important;
+}
