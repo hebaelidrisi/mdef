@@ -44,8 +44,8 @@ theme:
   name: material
   logo: images/smallstoneedited.png
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
+    - navigation.tabs        # This moves the menu to the top
+    - navigation.tabs.sticky # Keeps it there when you scroll
     - navigation.instant
   favicon: images/smallstoneedited.png
   palette:
