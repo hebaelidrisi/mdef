@@ -148,36 +148,29 @@
   .horizontal-row img { max-width: 100%; height: 120px; }
 }
 
-/* 1. Reset Header & Fix Overlap */
+/* 1. Hide the Header Text (Heba Elidrisi...) */
+.md-header__title, 
+.md-header__topic, 
+.md-header__ellipsis {
+  display: none !important;
+}
+
+/* 2. Keep the Background Transparent */
 .md-header {
   background-color: transparent !important;
   box-shadow: none !important;
-  height: 4.8rem; /* Keeps the header at a standard height to prevent overlapping */
 }
 
-/* 2. Fix Header Text (Heba Elidrisi...) */
-.md-header__title, 
-.md-header__topic,
-.md-header__ellipsis {
-  color: #000000 !important;
-  opacity: 1 !important;
-  line-height: 4.8rem; /* Centers the text vertically */
-}
-
-/* 3. Fix the Icon Visibility */
-/* We'll use a safer way to make the white icon black */
+/* 3. Keep the Microchip Icon visible and Black */
 .md-logo img, 
 .md-logo svg,
-.md-header__button.md-logo img {
-  filter: brightness(0) !important; /* Forces white/colored icons to pure black */
-  display: inline-block !important;
+.md-header__button.md-logo {
+  filter: brightness(0) !important;
+  display: block !important;
+  opacity: 1 !important;
 }
 
-/* 4. Fix Search Bar and Other Buttons */
-.md-search__input {
-  color: #000000 !important;
-}
-
-.md-header__button {
+/* 4. Keep Search Icon Black */
+.md-search__button, .md-header__button {
   color: #000000 !important;
 }
