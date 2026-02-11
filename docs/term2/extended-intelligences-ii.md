@@ -6,7 +6,7 @@ The default setting in my mind for anything Artificial Intelligence related was 
 
 The theory of it all is quite interesting and I think the way it was presented made it easy and interesting to follow. Concepts of setting up LLM personas, multi-agentic architecture and the employment of multiple persona panels to safeguard the outputs of LLM's were all brand new to me, and they helped me understand how an LLM's frame of reference is constructed. It also somehow gave me a glimmer of hope, despite the fact that it may not be currently exercised, that these systems can somehow be built to be more ethical and intentional. The conversations and debates that arose from discussing our thoughts on the persona panel building were very eye-opening and critical for us to acknowledge the responsibility, but also the effectivity of these persona panels. A big thank you to Chris & Pietro for structuring and presenting this class in an engaging and interesting manner, especially the theoretical aspect.
 
-Ultimately, my main take away from all the learnings and discussions of this course is this: artificial intelligence does not have to be the big bad wolf. It really all comes down to one main factor - how we choose to use it. If we approach it ethically and mindfully, it can be a tool for good. Still the real question remains, in our current day and age, are we truly capable of holding ourselves accountable to these ethical standards we preach?
+Ultimately, my main take away from all the learnings and discussions of this course is this: artificial intelligence does not have to be the big bad wolf. It really all comes down to one main factor - how we choose to use it. If we approach it ethically and mindfully, it can be a tool for good, tool being the key word here. Still the real question remains, in our current day and age, are we truly capable of holding ourselves accountable to these ethical standards we preach?
 
 ## Group Project
 
@@ -28,11 +28,9 @@ One thing I really appreciated was the push to work with the Raspberry Pico, bec
 
 Beste & I worked on connecting the Raspberry Pico, getting the LDR sensor to give analog outputs of the sunlight levels and getting that information on to a server online. We found the code and the schematic diagram of how to connect the LDR sensor to the raspberry pico [on this website](https://docs.sunfounder.com/projects/pico-2w-kit/en/latest/pyproject/py_photoresistor.html).
 
-<div class="horizontal-row" markdown>
 ![](../images/ldr-schematic.jpeg)
 ![](../images/pico-ldr-connect.jpeg)
 ![](../images/readings-send.jpeg)
-</div>
 
 The information hosted on the online IP address was then used in a three-agent system built on Open AI's Agent Builder. The system logic is broken down in a diagram below along with the prompts we gave to each agent to get the output. 
 
@@ -41,4 +39,4 @@ The information hosted on the online IP address was then used in a three-agent s
 ![](../images/agent-prompt-2.png)
 ![](../images/agent-prompt-3.png)
 
-While I wish we had more time to work on the project, it was the start of something great nevertheless and it is something I would personally love to push forward and develop properly. Personally, I am heavily impacted by sunlight and I find myself chasing light, so a tool like this is something I would greatly appreciate having in my daily routine, as I am sure everyone would. For potential future development, we discussed ideas of the mobility of the LDR sensor to get hyper local data, making it into an artifact that people can take into their day, integrating motivational speech as fuzzy data, integrating it into public transport like buses and allowing the agents to access Barcelona's public database through the internet to create more localized data. I think the project has a lot of potential for expansion and improvement and it would be rewarding to fully bring it to life.
+While I wish we had more time to work on the project, it was the start of something great nevertheless and it is something I would personally love to push forward and develop properly. Personally, I am heavily impacted by sunlight and I find myself chasing light, so a tool like this is something I would greatly appreciate having in my daily routine, as I am sure everyone else would. For potential future development, we discussed ideas of the mobility of the LDR sensor to get hyper local data, making it into an artifact that people can take into their day, integrating motivational speech as fuzzy data, integrating it into public transport like buses and allowing the agents to access Barcelona's public database through the internet to create more localized data. I think the project has a lot of potential for expansion and improvement and it would be rewarding to fully bring it to life.
