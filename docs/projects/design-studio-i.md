@@ -1,4 +1,30 @@
 # Design Studio I
 
-Content for Design Studio I project...
+---
 
+=== "Context"
+
+    ## Barcelona
+
+    ### October 2025
+
+
+=== "Prototype"
+
+    ## Barcelona
+
+    ### October 2025
+
+
+=== "Action 1"
+
+    ## Barcelona
+
+    ### October 2025
+
+
+=== "Action 2"
+
+    ## Barcelona
+
+    ### October 2025
