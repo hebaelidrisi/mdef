@@ -147,3 +147,27 @@
   }
   .horizontal-row img { max-width: 100%; height: 120px; }
 }
+
+/* 1. Remove the purple background color and shadow */
+.md-header {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* 2. Change the Site Title and header text to Black */
+.md-header__title, .md-header__topic {
+  color: #000000 !important;
+}
+
+/* 3. Change the Logo and Search Icons to Black */
+.md-header__button, .md-header__button.md-logo {
+  color: #000000 !important;
+}
+
+/* 4. Make the Search Bar text readable */
+.md-search__input {
+  color: #000000 !important;
+}
+.md-search__input::placeholder {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
