@@ -494,11 +494,11 @@
 <p><img alt="" src="../../images/weather-radio-sketch.jpeg" /></p>
 <p>One thing I really appreciated was the push to work with the Raspberry Pico, because that is definitely something we were not familiar with and might have been a little intimidated to work with in the beginning. Usually, I shy away from working with electronics and coding because I know it is not my strong suit, but this time I decided to challenge myself and break that barrier. Once we started working with it, we realized it wasn&rsquo;t hard at all and both Pietro &amp; Chris were very helpful and supportive throughout the entire process.</p>
 <p><img alt="" src="../../images/beste-solder.jpeg" /></p>
-<p>Beste &amp; I worked on connecting the Raspberry Pico, getting the LDR sensor to give analog outputs of the sunlight levels and getting that information on to a server online. We found the code and the schematic diagram of how to connect the LDR sensor to the raspberry pico <a href="https://docs.sunfounder.com/projects/pico-2w-kit/en/latest/pyproject/py_photoresistor.html">on this website</a>.</p>
+<p>Beste &amp; I worked on getting the Raspberry Pico connected, getting the LDR sensor to give analog outputs of the local sunlight levels and getting that information onto an online server. We found the code and the schematic diagram of how to connect the LDR sensor to the raspberry pico <a href="https://docs.sunfounder.com/projects/pico-2w-kit/en/latest/pyproject/py_photoresistor.html">on this website</a>.</p>
 <p><img alt="" src="../../images/ldr-schematic.jpeg" />
 <img alt="" src="../../images/pico-ldr-connect.jpeg" />
 <img alt="" src="../../images/readings-send.jpeg" /></p>
-<p>The information hosted on the online IP address was then used in a three-agent system built on Open AI&rsquo;s Agent Builder. The system logic is broken down in a diagram below along with the prompts we gave to each agent to get the output. </p>
+<p>The information hosted on the online server was then served through an MCP (Model Context Protocol) to the three-agent system built on Open AI&rsquo;s Agent Builder. The system logic is broken down in a diagram below along with the prompts we gave to each agent to get the output. </p>
 <p><img alt="" src="../../images/agent-diagram.jpeg" />
 <img alt="" src="../../images/agent-prompt-1.png" />
 <img alt="" src="../../images/agent-prompt-2.png" />
@@ -512,7 +512,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 11, 2026 14:03:34 UTC">February 11, 2026</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 11, 2026 14:20:48 UTC">February 11, 2026</span>
     
   </small>
 </div>
