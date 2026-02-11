@@ -10,9 +10,9 @@ The theory of it all is quite interesting and I think the way it was presented m
 
 Part of the course was the group project. It was enjoyable to experiment with some of these concepts hands on and understand what it means to work with agent builders.
 
-![](../images/llm-conceptual-1.jpeg)
-![](../images/llm-conceptual-2.jpeg)
-![](../images/llm-conceptual-3.jpeg)
+| | | |
+|---|---|---|
+| ![](../images/llm-conceptual-1.jpeg) | ![](../images/llm-conceptual-2.jpeg) | ![](../images/llm-conceptual-3.jpeg) |
 
 The concept of my group's project was to create a "Weather Radio" – a tool that combines information from a localized light resistance sensor, the current geolocation and research surrounding mood supporting music to curate music suggestions. The intention was for the playlist to function as a mood stabilizer, helping to regulate your mood based on the local weather conditions and helping set up for a positive day. Initially stemming from the idea of monitoring daily sunlight levels and getting some kind of sound as a corresponding output, the idea eventually evolved into gathering hyper-local sunlight data levels and the general weather forecast of the current city to propose a corresponding playlist to help optimize your mood for the day. Due to time constraints, we had to scale it down to a song from an entire playlist, but that is definitely an area for expansion in the future and I would say we learnt a lot regardless.
 
@@ -22,17 +22,19 @@ One thing I really appreciated was the push to work with the Raspberry Pico, bec
 
 Beste & I worked on connecting the Raspberry Pico, getting the LDR sensor to give analog outputs of the sunlight levels and getting that information on to a server online. We found the code and the schematic diagram of how to connect the LDR sensor to the raspberry pico in the following link: [https://docs.sunfounder.com/projects/pico-2w-kit/en/latest/pyproject/py_photoresistor.html](https://docs.sunfounder.com/projects/pico-2w-kit/en/latest/pyproject/py_photoresistor.html). 
 
-![](../images/ldr-schematic.jpeg)
+| | | |
+|---|---|---|
+| ![](../images/ldr-schematic.jpeg) | ![](../images/pico-ldr-connect.jpeg) | ![](../images/readings-send.jpeg) |
+
 ![](../images/beste-solder.jpeg)
-![](../images/pico-ldr-connect.jpeg)
-![](../images/readings-send.jpeg)
 
 The information hosted on the online IP address was then used in a three-agent system built on Open AI's Agent Builder. The system logic is broken down in a diagram below along with the prompts we gave to each agent to get the output. 
 
 ![](../images/agent-diagram.jpeg)
-![](../images/agent-prompt-1.png)
-![](../images/agent-prompt-2.png)
-![](../images/agent-prompt-3.png)
+
+| | | |
+|---|---|---|
+| ![](../images/agent-prompt-1.png) | ![](../images/agent-prompt-2.png) | ![](../images/agent-prompt-3.png) |
 
 While I wish we had more time to work on the project, it was the start of something great nevertheless and it is something I would personally love to push forward and develop properly. Personally, I am heavily impacted by sunlight and I find myself chasing light, so a tool like this is something I would greatly appreciate having in my daily routine, as I am sure everyone would. For potential future development, we discussed ideas of the mobility of the LDR sensor to get hyper local data, making it into an artifact that people can take into their day, integrating motivational speech as fuzzy data, integrating it into public transport like buses and allowing the agents to access Barcelona's public database through the internet to create more localized data. I think the project has a lot of potential for expansion and improvement and it would be rewarding to fully bring it to life.
 
