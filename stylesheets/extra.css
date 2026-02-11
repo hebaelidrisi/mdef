@@ -174,3 +174,23 @@
     width: auto !important;
     margin-top: 5px;
 }
+
+/* --- PERMANENT SIDEBAR BRANDING REMOVAL --- */
+
+/* 1. Hide the site name in the sidebar drawer */
+.md-nav__title[for="__drawer"],
+.md-nav__item--site,
+.md-nav__link--active.md-nav__link--index {
+    display: none !important;
+}
+
+/* 2. Hide any redundant name text in the navigation containers */
+.md-nav__title .md-ellipsis {
+    display: none !important;
+}
+
+/* 3. Remove the extra padding/space left by the hidden title */
+.md-nav__title {
+    padding: 0 !important;
+    height: 0 !important;
+}
