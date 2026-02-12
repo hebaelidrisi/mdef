@@ -393,3 +393,28 @@ a.md-header__button.md-logo {
     padding: 0 !important;
     list-style: none !important;
 }
+
+/* --- EMERGENCY TABS VISIBILITY --- */
+
+/* 1. Force the tabs container to show even if the theme tries to hide it */
+.md-header__inner .md-tabs {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: static !important;
+    height: auto !important;
+}
+
+/* 2. Ensure the list of links inside the tabs is visible */
+.md-tabs__list {
+    display: flex !important;
+    visibility: visible !important;
+}
+
+/* 3. Give the links a bright color temporarily to see them */
+.md-tabs__link {
+    display: block !important;
+    color: #ff0000 !important; /* RED - change this to #000000 once you see them */
+    font-size: 14px !important;
+    margin-right: 15px !important;
+}
