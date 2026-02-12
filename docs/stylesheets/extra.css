@@ -495,3 +495,18 @@ a.md-header__button.md-logo {
     letter-spacing: 0.15em !important;
     padding: 0 15px !important; /* Space between each link */
 }
+
+/* --- HIDE HOME TITLE ONLY ON INDEX PAGE --- */
+
+/* 1. Specifically target the h1 on the page with the 'index' attribute */
+[data-md-page="index"] .md-content__inner h1, 
+[data-md-page="index"] .md-typeset h1 {
+    display: none !important;
+}
+
+/* 2. Remove the extra white space left behind by the hidden title */
+[data-md-page="index"] .md-content__header {
+    display: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
