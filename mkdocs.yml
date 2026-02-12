@@ -46,7 +46,6 @@ theme:
   features:
     - navigation.tabs        # This moves the menu to the top
     - navigation.tabs.sticky # Keeps it there when you scroll
-    - navigation.instant
   favicon: images/smallstoneedited.png
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
