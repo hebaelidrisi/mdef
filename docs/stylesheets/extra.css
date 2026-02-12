@@ -246,20 +246,20 @@ a.md-header__button.md-logo {
     display: block !important;
 }
 
-/* --- HIDE PAGE TITLE AND EDIT BUTTON --- */
+/* --- HIDE PAGE TITLE AND EDIT BUTTON (TOTAL KILL) --- */
 
-/* 1. Hide the "Home" H1 title on the homepage */
+/* 1. Target the entire header area of the content page */
+[data-md-page="index"] .md-content__header {
+    display: none !important;
+}
+
+/* 2. Target any remaining H1 or H2 that might be acting as a page title */
+[data-md-page="index"] .md-typeset h1, 
 [data-md-page="index"] .md-content__inner h1 {
     display: none !important;
 }
 
-/* 2. Hide the "Edit this page" pencil icon */
+/* 3. Ensure the pencil icon remains hidden */
 .md-content__button {
     display: none !important;
-}
-
-/* 3. Remove any remaining vertical gap at the top of the content */
-.md-content__inner {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
 }
