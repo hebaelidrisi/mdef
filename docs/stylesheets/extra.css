@@ -200,3 +200,22 @@
     pointer-events: auto !important; /* Ensures the click is registered */
     z-index: 100 !important;        /* Keeps the link on the top layer */
 }
+
+/* --- REMOVE RIGHT SIDEBAR (TABLE OF CONTENTS) --- */
+
+/* 1. Hide the right sidebar entirely */
+.md-sidebar--secondary {
+    display: none !important;
+}
+
+/* 2. Center the main content area */
+.md-content {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    max-width: 100% !important;
+}
+
+/* 3. Expand the main text container to use the empty space */
+.md-main__inner {
+    display: block !important;
+}
