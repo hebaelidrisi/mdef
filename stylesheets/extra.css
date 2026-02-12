@@ -263,3 +263,33 @@ a.md-header__button.md-logo {
 .md-content__button {
     display: none !important;
 }
+
+/* --- STEP-BY-STEP NAV ADDITION --- */
+
+/* 1. Stop hiding the header bar so we can see the tabs */
+.md-header {
+    height: auto !important;
+    display: flex !important;
+    border-bottom: 1px solid #f0f0f0; /* Optional: adds a thin line like your example */
+}
+
+/* 2. Position the menu links next to the stone */
+.md-tabs {
+    display: flex !important;
+    margin-left: 2rem !important;
+    background-color: transparent !important;
+}
+
+/* 3. Make the links look minimalist like the jewelry site */
+.md-tabs__link {
+    color: #000000 !important;
+    font-size: 0.7rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    opacity: 0.6;
+}
+
+/* 4. Center the page content since we moved the navigation */
+.md-sidebar--primary {
+    display: none !important;
+}
