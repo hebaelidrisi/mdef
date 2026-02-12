@@ -510,3 +510,15 @@ a.md-header__button.md-logo {
     margin: 0 !important;
     padding: 0 !important;
 }
+
+/* --- ENLARGE HEADER LOGO --- */
+.md-logo img {
+    height: 3.5rem !important; /* Increase this number to make the stone bigger */
+    width: auto !important;
+    transform: none !important; /* Ensures CSS isn't accidentally rotating it */
+}
+
+.md-header__button.md-logo {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
