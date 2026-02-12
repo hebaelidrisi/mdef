@@ -522,3 +522,24 @@ a.md-header__button.md-logo {
     padding-top: 5px !important;
     padding-bottom: 5px !important;
 }
+
+/* --- RESTORE SMALLER STONE SIZE --- */
+
+/* 1. Limit the height of the stone logo to match previous look */
+.md-logo img {
+    height: 1.8rem !important; /* This brings it back to a subtle, jewelry-site size */
+    width: auto !important;
+    margin-top: 0 !important;
+}
+
+/* 2. Adjust the logo container so it doesn't push the nav links down */
+.md-header__button.md-logo {
+    display: flex !important;
+    align-items: center !important;
+    padding: 0 0.5rem !important;
+}
+
+/* 3. Ensure the header itself stays slim */
+.md-header {
+    height: 3.5rem !important; 
+}
