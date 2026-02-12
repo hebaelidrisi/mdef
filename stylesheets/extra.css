@@ -527,7 +527,7 @@ a.md-header__button.md-logo {
 
 /* 1. Limit the height of the stone logo to match previous look */
 .md-logo img {
-    height: 1.8rem !important; /* This brings it back to a subtle, jewelry-site size */
+    height: 1.5rem !important; /* This brings it back to a subtle, jewelry-site size */
     width: auto !important;
     margin-top: 0 !important;
 }
