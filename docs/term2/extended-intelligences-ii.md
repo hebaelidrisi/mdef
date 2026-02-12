@@ -1,4 +1,4 @@
-# AI & LLM's 
+# Extended Intelligneces II: AI & LLM's 
 
 ## Reflection
 
