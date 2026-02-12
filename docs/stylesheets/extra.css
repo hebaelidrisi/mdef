@@ -340,3 +340,34 @@ a.md-header__button.md-logo {
     margin: 0 !important;
     padding: 0 1rem !important;
 }
+
+/* --- ALIGN TABS NEXT TO STONE --- */
+
+/* 1. Ensure the header container allows the logo and tabs to sit side-by-side */
+.md-header__inner {
+    display: flex !important;
+    align-items: center !important;
+}
+
+/* 2. Style the Tabs container to be transparent and next to the logo */
+.md-tabs {
+    display: flex !important;
+    background-color: transparent !important;
+    margin-left: 20px !important; /* This creates the gap between stone and links */
+    margin-top: 0 !important;
+    box-shadow: none !important;
+}
+
+/* 3. Make the navigation links clean and minimalist */
+.md-tabs__link {
+    color: #000000 !important;
+    font-size: 0.75rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    opacity: 0.7;
+}
+
+.md-tabs__link--active {
+    opacity: 1 !important;
+    font-weight: bold;
+}
