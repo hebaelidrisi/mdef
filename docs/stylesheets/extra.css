@@ -543,3 +543,24 @@ a.md-header__button.md-logo {
 .md-header {
     height: 3.5rem !important; 
 }
+
+/* --- THE MORNING FIX: STEP 1 (HIDE HOME TITLE) --- */
+
+/* 1. Target the specific content header wrapper only on the homepage */
+[data-md-page="index"] .md-content__header {
+    display: none !important;
+}
+
+/* 2. Target the H1 specifically in case it's loose in the body */
+[data-md-page="index"] .md-typeset h1 {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    visibility: hidden !important;
+}
+
+/* 3. Pull the "DESIGNING THE FUTURE" text up to fill the gap */
+[data-md-page="index"] .md-main__inner {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
