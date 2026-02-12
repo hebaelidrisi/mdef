@@ -293,3 +293,26 @@ a.md-header__button.md-logo {
 .md-sidebar--primary {
     display: none !important;
 }
+
+/* --- ALIGN STONE TO FAR LEFT --- */
+
+/* 1. Ensure the header container allows items to stay at the edges */
+.md-header__inner {
+    display: flex !important;
+    justify-content: flex-start !important;
+    max-width: none !important;
+    padding: 0 1rem !important; /* Adjust this to move it closer/further from the edge */
+}
+
+/* 2. Force the logo button to the left */
+.md-header__button.md-logo {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+    display: flex !important;
+}
+
+/* 3. Keep the stone size consistent */
+.md-logo img {
+    height: 2.8rem !important;
+    width: auto !important;
+}
