@@ -220,12 +220,11 @@
     display: block !important;
 }
 
-/* --- ABSOLUTE HEADER TEXT REMOVAL --- */
+/* --- ABSOLUTE HEADER TEXT REMOVAL (UPDATED) --- */
 
-/* 1. Target every possible text container in the top bar */
+/* 1. Target titles and ellipses ONLY, leaving spans for nav links */
 .md-header__title,
 .md-header__topic,
-.md-header__inner span,
 .md-ellipsis {
     display: none !important;
     visibility: hidden !important;
@@ -370,4 +369,27 @@ a.md-header__button.md-logo {
 .md-tabs__link--active {
     opacity: 1 !important;
     font-weight: bold;
+}
+
+/* --- THE PEACE TREATY: LOGO + TABS TOGETHER --- */
+
+.md-header__inner {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+}
+
+.md-tabs {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: static !important; /* Prevents them from floating away */
+}
+
+.md-tabs__list {
+    display: flex !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
 }
