@@ -316,3 +316,27 @@ a.md-header__button.md-logo {
     height: 2.8rem !important;
     width: auto !important;
 }
+
+/* --- POWER FIX: FORCE STONE LEFT --- */
+
+/* 1. Reset the header container to be full width and left-aligned */
+.md-header__inner.md-grid {
+    max-width: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+}
+
+/* 2. Restore the header visibility so the stone has a home */
+.md-header {
+    height: auto !important;
+    position: sticky !important;
+    display: block !important;
+}
+
+/* 3. Ensure the logo itself isn't centered by a margin */
+.md-header__button.md-logo {
+    margin: 0 !important;
+    padding: 0 1rem !important;
+}
