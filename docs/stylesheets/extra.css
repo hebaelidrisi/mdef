@@ -418,3 +418,42 @@ a.md-header__button.md-logo {
     font-size: 14px !important;
     margin-right: 15px !important;
 }
+
+/* --- TABS RECOVERY FIX --- */
+
+/* 1. Force the header to be a row and NOT hide content */
+.md-header__inner {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+}
+
+/* 2. Force the tabs to be visible and positioned next to the stone */
+.md-tabs {
+    display: block !important; /* Material tabs usually need block or flex */
+    visibility: visible !important;
+    opacity: 1 !important;
+    margin-left: 50px !important; /* Adjust this to move links away from the stone */
+    background-color: transparent !important;
+}
+
+/* 3. Ensure the list of links (Home, Term 1, etc.) is horizontal */
+.md-tabs__list {
+    display: flex !important;
+    flex-direction: row !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* 4. Style the actual text links */
+.md-tabs__item {
+    display: inline-block !important;
+    margin-right: 20px !important;
+}
+
+.md-tabs__link {
+    color: #000000 !important;
+    font-size: 0.7rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.1em !important;
+}

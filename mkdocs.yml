@@ -44,8 +44,9 @@ theme:
   name: material
   logo: images/smallstoneedited.png
   features:
-    - navigation.tabs        # This moves the menu to the top
-    - navigation.tabs.sticky # Keeps it there when you scroll
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes  # Add this to help the theme handle nested folders
   favicon: images/smallstoneedited.png
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
