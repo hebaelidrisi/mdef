@@ -9,7 +9,7 @@ Emerging from an initial desire to visualize underground tree roots and evolving
 
 
 ### **Process, Evolution & Traces**
-*full technical process documentation available on the [hackster.io repository](https://www.hackster.io/544134/echoes-of-earth-099b88)*
+*full technical process documentation available on [hackster.io repository](https://www.hackster.io/544134/echoes-of-earth-099b88)*
 
 ![](../images/cg-interests-overview.png)
 
@@ -52,7 +52,7 @@ Aside from a few questions about if things were set up correctly, I hardly used 
 ![](../images/cg-touchdesignerset.jpeg)
 </div>
 
-We got a lot of help from Mikel to get the lights set up - we played a lot with the way the LED’s would react to the soil moisture readings and also the connections to the Barduino board from the top of the reed-like structures. Since the connections were quite flimsy, we had to solder cable connectors to the LED wires that connect to the Barduino board and use clear wires to tighten the electrical wires to the reeds to keep them stable for the presentation. Through the support from the FabLab team, we were able to break through both the mental and physical blocks. Thank you Santi, Mikel, Andres, Julia, Damian. 
+We got a lot of help from Mikel to get the lights set up - we played a lot with the way the LED’s would react to the soil moisture readings and also the connections to the Barduino board from the top of the reed-like structures. Since the connections were quite flimsy, we had to solder cable connectors to the LED wires that connect to the Barduino board . We also used clear wires to tighten the electrical wires to the reeds to keep them stable for the presentation. Through the support from the FabLab team, we were able to break through both the mental and physical blocks. Thank you Santi, Mikel, Andres, Julia, Damian. 
 
 <div class="horizontal-row" markdown>
 ![](../images/cg-IMG_6745.jpg)
