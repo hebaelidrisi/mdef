@@ -13,7 +13,7 @@ Emerging from an initial desire to visualize underground tree roots and evolving
 
 ![](../images/cg-interests-overview.png)
 
-The first brainstorming session was interesting and a good head start for the upcoming week. Upon mapping out our individual interests and discussing similarities, we realized we had several overlapping areas of interest. ***Sensing, translation, surfaces, light and ground*** were some of the common words that emerged from the intersection of our interests. Interestingly enough, one of the strongest ideas that emerged from these initial discussions was fireflies. After doing some research, we learnt that fireflies are bioindicators that reflect the overall health of an ecosystem through their presence, absence and behavior. This particular idea invoked some sort of excitement in us and I left feeling that we had a clear idea to kick off the micro-challenge week with. 
+The first brainstorming session was interesting and a good head start for the upcoming week. Upon mapping out our individual interests and discussing similarities, we realized we had several overlapping areas of interest. ***Sensing, translation, surfaces, light and ground*** were some of the common words that emerged from the intersection of our interests. Interestingly enough, one of the strongest ideas that emerged from these initial discussions was fireflies. After doing some research, we learnt that fireflies are bioindicators that reflect the overall health of an ecosystem through their presence, absence and behavior. This particular idea invoked some sort of excitement in us and I left feeling that we had a clear idea to kick off the micro-challenge with. 
 
 ![](../images/cg-fireflies-ref.jpg)
 
@@ -63,12 +63,12 @@ We got a lot of help from Mikel to get the lights set up - we played a lot with 
 
 ![](../images/cg-demo.gif)
 
-The result was a magical experience that used storytelling, electronics and technology to elicit a sensory experience of connecting to the Earth. Surely enough, we did come back to the idea of the fireflies, creating a full circle moment, especially after all of the challenges we encountered along the way with the conceptualization. 
+The result was a magical experience that used storytelling, electronics and technology to elicit a sensory experience of connecting to the Earth. Surely enough, we did come back to the idea of the fireflies, which was a full circle moment, especially considering all of the challenges we encountered along the way with the conceptualization. 
 
-<div class="horizontal-row">
-  <img src="../images/cg-IMG_3801.jpg">
-  <img src="../images/cg-IMG_3812.jpg">
-  <img src="../images/cg-IMG_3800.jpg">
+<div class="horizontal-row" markdown>
+![](../images/cg-IMG_3801.jpg)
+![](../images/cg-IMG_3812.jpg)
+![](../images/cg-IMG_3800.jpg)
 </div>
 
 Although I am satisfied with the simplicity yet effectivity of the artifact, future iteration ideas include integrating a physical housing to encase the brain: the barduino, wires and connections, as well as improving the LED connections to ensure they are well secured to the board. To elicit more immediate reactions in the device and integrate an additional influence to the output, the addition of proximity or movement sensors might prove to be resourceful to allow for a more human-interactive intervention. 
