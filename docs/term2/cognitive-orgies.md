@@ -11,7 +11,6 @@ Emerging from an initial desire to visualize underground tree roots and evolving
 ### **Process, Evolution & Traces**
 *full technical process documentation available on the [hackster.io repository](https://www.hackster.io/544134/echoes-of-earth-099b88)*
 
-<div class="horizontal-row" markdown>
 ![](../images/cg-interests-overview.png)
 
 The first brainstorming session was interesting and a good head start for the upcoming week. Upon mapping out our individual interests and discussing similarities, we realized we had several overlapping areas of interest. ***Sensing, translation, surfaces, light and ground*** were some of the common words that emerged from the intersection of our interests. Interestingly enough, one of the strongest ideas that emerged from these initial discussions was fireflies. After doing some research, we learnt that fireflies are bioindicators that reflect the overall health of an ecosystem through their presence, absence and behavior. This particular idea invoked some sort of excitement in us and I left feeling that we had a clear idea to kick off the micro-challenge week with. 
