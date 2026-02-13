@@ -564,3 +564,19 @@ a.md-header__button.md-logo {
     margin-top: 0 !important;
     padding-top: 0 !important;
 }
+
+/* --- PREVENT IMAGE CLIPPING --- */
+.horizontal-row {
+    display: flex !important;
+    flex-wrap: nowrap !important; /* Keeps them in one line */
+    gap: 10px; /* Adds space between the stones/images */
+    width: 100%;
+    align-items: flex-start; /* Aligns them to the top so they aren't stretched */
+}
+
+.horizontal-row img {
+    max-width: 32%; /* Fits 3 images across with a small gap */
+    height: auto !important; /* Prevents vertical clipping */
+    object-fit: contain !important; /* Ensures the whole image is visible */
+    border-radius: 4px; /* Optional: matches your clean aesthetic */
+}
