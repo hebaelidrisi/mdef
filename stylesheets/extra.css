@@ -585,3 +585,15 @@ a.md-header__button.md-logo {
 .md-copyright__generator {
     display: none !important;
 }
+
+/* --- ULTIMATE FOOTER HIDE --- */
+.md-footer-meta__inner .md-copyright, 
+.md-copyright__generator, 
+.md-footer-meta__inner > div:first-child {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
