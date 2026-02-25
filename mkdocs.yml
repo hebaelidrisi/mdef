@@ -2,7 +2,7 @@
 site_name: Heba Elidrisi
 site_description: Master in Design for Emergent Futures
 site_author: Heba Elidrisi
-copyright: Copyleft 2023 "Heba Elidrisi" - GNU Free Documentation License
+copyright: ""
 repo_name: 'Name : Github Repo'
 site_url: https://hebaelidrisi.github.io/mdef/
 repo_url: 'https://github.com/fablabbcn/mdef-template'
@@ -30,16 +30,12 @@ nav:
 extra:
   social:
     # For other social icons at https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
-    - icon: fontawesome/brands/medium
-      link: https://medium.com/
     - icon: fontawesome/brands/instagram
-      link: https://instagram.com/
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/
+      link: https://instagram.com/hebaelidrisi
     - icon: fontawesome/brands/linkedin
-      link: "https://www.linkedin.com/in/"
-    - icon: fontawesome/brands/github
-      link: "https://github.com/"
+      link: https://www.linkedin.com/in/hebaelidrisi/
+    - icon: fontawesome/brands/whatsapp
+      link: "https://wa.me/your-phone-number"
 
 theme:
   name: material
@@ -48,6 +44,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes  # Add this to help the theme handle nested folders
+    - hide.generator
   favicon: images/smallstoneedited.png
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
