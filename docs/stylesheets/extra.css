@@ -580,3 +580,8 @@ a.md-header__button.md-logo {
     object-fit: contain !important; /* Ensures the whole image is visible */
     border-radius: 4px; /* Optional: matches your clean aesthetic */
 }
+
+/* --- HIDE FOOTER GENERATOR TEXT --- */
+.md-copyright__generator {
+    display: none !important;
+}
