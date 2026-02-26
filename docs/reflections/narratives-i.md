@@ -2,14 +2,13 @@
 
 <style>
     .slideshow-container {
-        max-width: 80%;
-        position: relative;
-        margin: 40px auto;
-        border-radius: 20px;
-        overflow: hidden;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-        background-color: #f9f9f9;
-    }
+    max-width: 100%; /* Now matches the width of your other page images */
+    position: relative;
+    margin: 40px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
     .mySlides { display: none; text-align: center; }
     .mySlides img { width: 100%; height: auto; display: block; border-radius: 20px; }
     .numbertext { color: #333; font-size: 14px; padding: 12px 0; text-align: center; width: 100%; }
@@ -71,13 +70,31 @@
         let i;
         let slides = document.getElementsByClassName("mySlides");
         let counter = document.getElementById("counter");
+        
         if (n > slides.length) {slideIndex = 1}    
         if (n < 1) {slideIndex = slides.length}
+        
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";  
         }
+        
         slides[slideIndex-1].style.display = "block";  
-        if(counter) { counter.innerHTML = slideIndex + " / " + slides.length; }
+
+        // CUSTOM COUNTER LOGIC
+        let pageDisplay = "";
+        if (slideIndex === 1) {
+            pageDisplay = "1";
+        } else if (slideIndex === 2) {
+            pageDisplay = "2-3";
+        } else if (slideIndex === 3) {
+            pageDisplay = "4-5";
+        } else if (slideIndex === 4) {
+            pageDisplay = "6-7"; // Added in case you add another spread later
+        }
+
+        if(counter) { 
+            counter.innerHTML = pageDisplay; 
+        }
     }
 </script>
 
