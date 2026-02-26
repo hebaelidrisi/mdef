@@ -63,20 +63,23 @@
 
 <div class="slideshow-container">
     <div class="mySlides">
-        <img src="../images/pictorial-draft-1.jpg" alt="Cover Page">
+        <img src="../../images/pictorial-draft-1.jpg" alt="Cover Page">
     </div>
 
     <div class="mySlides">
-        <img src="../images/pictorial-draft-2.jpg" alt="Spread 1">
+        <img src="../../images/pictorial-draft-2.jpg" alt="Spread 1">
     </div>
 
     <div class="mySlides">
-        <img src="../images/pictorial-draft-3.jpg" alt="Spread 2">
+        <img src="../../images/pictorial-draft-3.jpg" alt="Spread 2">
     </div>
 
     <div class="mySlides">
-        <img src="../images/pictorial-draft-4.jpg" alt="Spread 3">
+        <img src="../../images/pictorial-draft-4.jpg" alt="Spread 3">
     </div>
+    
+    ...
+</div>
 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
