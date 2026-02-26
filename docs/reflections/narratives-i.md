@@ -1,41 +1,18 @@
 ## Pictorial
 
 <style>
-    /* Container for the flipbook */
     .slideshow-container {
-        max-width: 80%; /* Adjusted for double-page spreads */
+        max-width: 80%;
         position: relative;
         margin: 40px auto;
-        border-radius: 20px; /* Curved edges as requested */
+        border-radius: 20px;
         overflow: hidden;
         box-shadow: 0 10px 30px rgba(0,0,0,0.15);
         background-color: #f9f9f9;
     }
-
-    /* Hide slides by default */
-    .mySlides {
-        display: none;
-        text-align: center;
-    }
-
-    /* Style for the images */
-    .mySlides img {
-        width: 100%;
-        height: auto;
-        display: block;
-        border-radius: 20px; /* Ensures images follow the curve */
-    }
-
-    /* Counter text (1/4, etc.) */
-    .numbertext {
-        color: #333;
-        font-size: 14px;
-        padding: 12px 0;
-        text-align: center;
-        width: 100%;
-    }
-
-    /* Navigation Arrows */
+    .mySlides { display: none; text-align: center; }
+    .mySlides img { width: 100%; height: auto; display: block; border-radius: 20px; }
+    .numbertext { color: #333; font-size: 14px; padding: 12px 0; text-align: center; width: 100%; }
     .prev, .next {
         cursor: pointer;
         position: absolute;
@@ -46,46 +23,63 @@
         color: white;
         font-weight: bold;
         font-size: 18px;
-        transition: 0.3s ease;
-        border-radius: 50%; /* Circular buttons */
+        border-radius: 50%;
         background-color: rgba(0,0,0,0.3);
         user-select: none;
         text-decoration: none !important;
+        z-index: 100;
     }
-
     .next { right: 15px; }
     .prev { left: 15px; }
-
-    .prev:hover, .next:hover {
-        background-color: rgba(0,0,0,0.8);
-    }
+    .prev:hover, .next:hover { background-color: rgba(0,0,0,0.8); }
 </style>
 
-<div class="slideshow-container">
-    <div class="mySlides">
-        <img src="../../images/pictorial-draft-1.jpg" alt="Cover Page">
-    </div>
+<div class="slideshow-container" markdown="1">
 
-    <div class="mySlides">
-        <img src="../../images/pictorial-draft-2.jpg" alt="Spread 1">
-    </div>
-
-    <div class="mySlides">
-        <img src="../../images/pictorial-draft-3.jpg" alt="Spread 2">
-    </div>
-
-    <div class="mySlides">
-        <img src="../../images/pictorial-draft-4.jpg" alt="Spread 3">
-    </div>
-    
-    ...
+<div class="mySlides">
+<img src="../../images/pictorial-draft-1.jpg" alt="Cover">
 </div>
 
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+<div class="mySlides">
+<img src="../../images/pictorial-draft-2.jpg" alt="Spread 1">
+</div>
+
+<div class="mySlides">
+<img src="../../images/pictorial-draft-3.jpg" alt="Spread 2">
+</div>
+
+<div class="mySlides">
+<img src="../../images/pictorial-draft-4.jpg" alt="Spread 3">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
 </div>
 
 <div id="counter" class="numbertext">1 / 4</div>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let counter = document.getElementById("counter");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slides[slideIndex-1].style.display = "block";  
+        if(counter) { counter.innerHTML = slideIndex + " / " + slides.length; }
+    }
+</script>
 
 <script>
     let slideIndex = 1;
@@ -112,10 +106,6 @@
     }
 </script>
 
-![](../images/pictorial-draft-1.jpg)
-![](../images/pictorial-draft-2.jpg)
-![](../images/pictorial-draft-3.jpg)
-![](../images/pictorial-draft-4.jpg)
 
 ## Peer Interpretation Snapshot (Ayal)
 
