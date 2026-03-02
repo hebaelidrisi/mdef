@@ -597,3 +597,13 @@ a.md-header__button.md-logo {
     margin: 0 !important;
     padding: 0 !important;
 }
+
+/* Removes the horizontal line above the footer */
+.md-footer {
+    border-top: none !important;
+}
+
+/* Optional: Removes the line in the actual footer area if it persists */
+.md-footer-meta {
+    border-top: none !important;
+}
