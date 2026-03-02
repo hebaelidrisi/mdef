@@ -628,3 +628,43 @@ hr,
 .md-footer__link--next {
     display: none !important;
 }
+
+/* --- CLICKABLE IMAGE ROW WITH LIFT EFFECT --- */
+.horizontal-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  margin-top: 3em;
+  flex-wrap: nowrap;
+}
+
+/* The clickable wrapper */
+.horizontal-row a {
+  flex: 1 1 0;
+  display: block;
+  text-decoration: none;
+  /* This creates the smooth 'lift' timing */
+  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); 
+}
+
+/* The Lift Action */
+.horizontal-row a:hover {
+  transform: translateY(-15px); /* Moves it up */
+}
+
+.horizontal-row a img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  /* Soft shadow that gets deeper on hover */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: box-shadow 0.4s ease;
+}
+
+/* Shadow deepens as it lifts to look like it's rising off the page */
+.horizontal-row a:hover img {
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
