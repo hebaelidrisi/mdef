@@ -608,20 +608,22 @@ a.md-header__button.md-logo {
     border-top: none !important;
 }
 
-/* --- FINAL HOME PAGE CLEANUP --- */
-
-/* 1. Hides the "Home" title text ONLY on the index page */
-[data-md-page="index"] .md-content h1,
-[data-md-page="index"] .md-typeset h1 {
+/* 1. Target the 'Home' text specifically by looking for its neighbor */
+/* This hides the H1 ONLY if the .home-title element exists on the same page */
+:has(.home-title) h1, 
+:has(.home-title) .md-content__header {
     display: none !important;
 }
 
-/* 2. Hides the horizontal line under your logo/title on the home page */
+/* 2. Keep your styling for the subtitle itself */
 .home-title {
     border-bottom: none !important;
+    text-align: justify;
+    text-align-last: justify;
+    width: 100%;
 }
 
-/* 3. Hides the thin line above the footer and the "Next" arrow */
+/* 3. Global footer/nav cleanup */
 hr, 
 .md-footer__link--next {
     display: none !important;
