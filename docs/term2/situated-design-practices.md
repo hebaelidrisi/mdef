@@ -6,7 +6,6 @@ My framing is practicing design within a defined context, whether that be locati
 
 <div class="horizontal-row" markdown>
 ![](../images/sdp-IMG-6949.jpg)
-![](../images/sdp-IMG-6957.jpg)
 ![](../images/sdp-IMG-6960.jpg)
 ![](../images/sdp-IMG-6971.jpg)
 </div>
@@ -15,7 +14,6 @@ Our visit to the Barcelona Supercomputing Center revealed a context defined by t
 
 <div class="horizontal-row" markdown>
 ![](../images/sdp-IMG-7022.jpg)
-![](../images/sdp-IMG-7029.jpg)
 ![](../images/sdp-IMG-7040.jpg)
 ![](../images/sdp-IMG-7042.jpg)
 </div>
@@ -29,5 +27,6 @@ Cal Negre provided a completely contrasting context – a grounding in nature as
 </div>
 
 Essentially it all comes down to one thing: positioning yourself in a clearly identifiable realm and acting alongside its actors. With every exploration, I realized the importance of situating my practice within a specific context. While I am still navigating the exact situatedness of my practice in terms of community, I define my design practice within the physical realm – hands-on, interactive and tangible, moving away from the all-consuming digital landscape into a space of sensory anchoring. I choose to situate my work within Barcelona, interacting with a community of moving individuals, nomads and migrants, at sites where exposed Earth provides the raw material for belonging. 
+
 
 ![](../images/sdp-IMG-7135.jpg)
