@@ -9,7 +9,7 @@ hide:
   <a href="projects/design-studio-i.md">
     <img src="images/term1-cover.png" alt="Term 1">
   </a>
-  <a href="term2/cognitive-orgies/">
+  <a href="term2/extended-intelligences-ii.md">
     <img src="images/term2-cover.png" alt="Term 2">
   </a>
   <a href="term3/final-project/">
