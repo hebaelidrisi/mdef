@@ -608,22 +608,21 @@ a.md-header__button.md-logo {
     border-top: none !important;
 }
 
-/* 1. Hides the "Home" title text */
-.md-content h1 {
+/* --- FINAL HOME PAGE CLEANUP --- */
+
+/* 1. Hides the "Home" title text ONLY on the index page */
+[data-md-page="index"] .md-content h1,
+[data-md-page="index"] .md-typeset h1 {
     display: none !important;
 }
 
-/* 2. Hides the horizontal line under your logo/title */
+/* 2. Hides the horizontal line under your logo/title on the home page */
 .home-title {
     border-bottom: none !important;
 }
 
-/* 3. Hides the thin line above the footer */
-hr {
-    display: none !important;
-}
-
-/* 4. Hides the "Next" arrow at the bottom right */
+/* 3. Hides the thin line above the footer and the "Next" arrow */
+hr, 
 .md-footer__link--next {
     display: none !important;
 }
