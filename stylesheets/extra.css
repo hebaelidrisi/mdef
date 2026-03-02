@@ -654,36 +654,36 @@ hr,
   transform: translateY(-15px); /* Moves it up */
 }
 
-/* --- THE PERFECTED CLICKABLE ROW --- */
+/* --- THE PERFECTED CLICKABLE ROW - LARGER & CENTERED --- */
 .horizontal-row {
   display: flex !important;
   flex-direction: row !important; /* Forces them onto one line */
-  justify-content: center;
-  align-items: center; /* Keeps them vertically centered with each other */
-  gap: 30px;
-  width: 100%;
-  margin: 3em 0;
-  flex-wrap: nowrap; /* Prevents them from dropping to a new line */
+  justify-content: center; /* Horizontally centers the entire row on the page */
+  align-items: center; /* Keeps images vertically centered with each other */
+  gap: 120px; /* MUCH LARGER GAP: Spreads the images out across the page width */
+  width: 100%; /* */
+  margin: 6em 0; /* More top/bottom margin for a bigger presence */
+  flex-wrap: nowrap; /* Strictly prevents wrapping to a second line */
 }
 
 .horizontal-row a {
-  flex: 1; /* Makes each link take up equal space */
-  display: block;
-  max-width: 200px; /* Limits size so they don't get too huge */
-  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  flex: 0 1 auto; /* Prevents stretching to equal width, allowing natural centered spacing */
+  display: block; /* */
+  /* Remove max-width to let images be big */
+  text-decoration: none; /* */
+  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); /* */
 }
 
 .horizontal-row a img {
-  width: 100%;
-  height: 200px; /* FORCES all images to the same height */
+  width: auto; /* Allows the width to scale naturally based on the height */
+  height: 450px; /* MUCH LARGER: FORCES all images to this large height */
   object-fit: contain !important; /* Shows the whole stone without cropping */
-  background-color: transparent !important; /* Ensures CSS isn't adding a background */
-  border-radius: 0; /* Remove if you want the 'raw' stone look */
-  box-shadow: none; /* Removes the shadow if it's highlighting the white box */
+  background-color: transparent !important; /* */
+  box-shadow: none !important; /* */
 }
 
 /* Updated Lift Effect */
 .horizontal-row a:hover {
-  transform: translateY(-15px);
+  transform: translateY(-25px); /* Increased lift to match larger scale */
 }
 
