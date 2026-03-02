@@ -9,7 +9,7 @@ Emerging from an initial desire to visualize underground tree roots and evolving
 
 
 ### **Process, Evolution & Traces**
-- full technical process documentation available on [hackster.io repository](https://www.hackster.io/544134/echoes-of-earth-099b88)*
+- [Hackster.io Repository](https://www.hackster.io/544134/echoes-of-earth-099b88)*
 
 ![](../images/cg-interests-overview.png)
 
