@@ -654,60 +654,58 @@ hr,
   transform: translateY(-15px); /* Moves it up */
 }
 
-/* --- THE PERFECTED PENTAGON ORBIT --- */
+/* --- THE FINAL BALANCED ORBIT --- */
 
 .orbit-container {
   position: relative;
   width: 100%;
-  height: 600px; /* Fixed height ensures stones stay visible without scrolling */
+  height: 500px; /* Reduced height to keep everything in view */
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2em 0;
+  margin: 3em 0;
 }
 
-/* Center Text styling */
 .orbit-center {
   position: absolute;
   text-align: center;
   z-index: 10;
 }
 
-.home-title {
-  font-weight: bold !important;
-  letter-spacing: 0.5em !important; 
-  text-transform: uppercase;
-  font-size: 1.1rem !important;
-  margin: 0 !important;
-  border-bottom: none !important;
-}
-
 /* Base style for all stones */
 .stone {
   position: absolute;
   transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-  display: block;
 }
 
 .stone img {
-  height: 180px !important; /* FORCES all stones to the same visual size */
+  /* This FORCES all stones to the exact same visual weight */
+  height: 140px !important; 
   width: auto !important;
   object-fit: contain !important;
+  filter: drop-shadow(0 5px 15px rgba(0,0,0,0.05));
 }
 
-/* Stable Hover: Keeps centering while lifting */
+/* --- THE STABLE HOVER --- */
+/* We use 'scale' only so the center-point never moves */
 .stone:hover {
-  transform: scale(1.1) translateY(-10px);
-}
-.s1:hover, .s3:hover, .s4:hover {
-  transform: translateX(-50%) scale(1.1) translateY(-10px) !important;
+  transform: translate(-50%, -50%) scale(1.15) !important;
+  z-index: 20;
 }
 
-/* --- BALANCED 5-POINT COORDINATES --- */
-/* (Measured from the center of the container) */
+/* --- COORDINATE SYSTEM (Centered on Text) --- */
+/* We place them exactly relative to the dead-center of the 'orbit-container' */
+.stone {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Keeps them centered on their own coordinate */
+}
 
-.s1 { top: 10%;  left: 50%; transform: translateX(-50%); }      /* Top Center */
-.s2 { top: 40%;  left: 85%; transform: translateY(-50%); }     /* Middle Right */
-.s3 { top: 85%;  left: 70%; transform: translateX(-50%); }     /* Bottom Right-ish */
-.s4 { top: 85%;  left: 30%; transform: translateX(-50%); }     /* Bottom Left-ish */
-.s5 { top: 40%;  left: 15%; transform: translateY(-50%); }     /* Middle Left */
+/* Y-axis: Negative is UP, Positive is DOWN */
+/* X-axis: Negative is LEFT, Positive is RIGHT */
+
+.s1 { margin-top: -180px; margin-left: 0px; }      /* Top Center */
+.s2 { margin-top: 0px;    margin-left: 300px; }    /* Center Right */
+.s3 { margin-top: 180px;  margin-left: 150px; }    /* Bottom Right */
+.s4 { margin-top: 180px;  margin-left: -150px; }   /* Bottom Left */
+.s5 { margin-top: 0px;    margin-left: -300px; }   /* Center Left */
