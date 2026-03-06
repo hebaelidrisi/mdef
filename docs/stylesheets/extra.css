@@ -704,16 +704,16 @@ hr,
   z-index: 20;
 }
 
-/* --- COORDINATE SYSTEM (Centered on Text) --- */
+/* --- COORDINATE SYSTEM (Pushed to Edges) --- */
 
 .s1 { margin-top: -220px; margin-left: 0px; }      /* Top Center */
-.s2 { margin-top: 0px;    margin-left: 600px; }    /* Center Right - PUSHED OUT */
-.s3 { margin-top: 220px;  margin-left: 200px; }    /* Bottom Right */
-.s4 { margin-top: 220px;  margin-left: -200px; }   /* Bottom Left */
-.s5 { margin-top: 0px;    margin-left: -600px; }   /* Center Left - PUSHED OUT */
+.s2 { margin-top: 0px;    margin-left: 40%; }     /* Center Right - PUSHED TO EDGE */
+.s3 { margin-top: 220px;  margin-left: 180px; }    /* Bottom Right */
+.s4 { margin-top: 220px;  margin-left: -180px; }   /* Bottom Left */
+.s5 { margin-top: 0px;    margin-left: -40%; }    /* Center Left - PUSHED TO EDGE */
 
-/* IMPORTANT: Ensure this rule is inside your .home-title block */
+/* Add this to your .home-title block to ensure text never wraps */
 .home-title {
-  white-space: nowrap !important; /* Forces the long title to stay on one line */
-  letter-spacing: 0.5em !important;
+  white-space: nowrap !important;
+  overflow: visible !important;
 }
