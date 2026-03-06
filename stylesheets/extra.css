@@ -97,3 +97,26 @@ Th/* --- 1. CORE THEME & LAYOUT --- */
 .md-footer, .md-footer-meta, .md-copyright {
     display: none !important;
 }
+
+/* 1. HIDE REAPPEARING HEADER TEXT & SEARCH */
+.md-header__topic, 
+.md-header__title, 
+.md-search,
+.md-nav__title[for="__drawer"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* 2. HIDE "HOME" TITLE AND PENCIL ICON */
+[data-md-page="index"] .md-content__header, 
+[data-md-page="index"] .md-typeset h1:not(.home-title),
+.md-content__button {
+    display: none !important;
+}
+
+/* 3. FINAL HEADER LOGO POSITIONING */
+/* This ensures the stone is the only thing on the left */
+.md-header__button.md-logo {
+    margin-right: auto !important;
+    display: flex !important;
+}
