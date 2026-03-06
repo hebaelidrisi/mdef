@@ -705,16 +705,15 @@ hr,
 }
 
 /* --- COORDINATE SYSTEM (Centered on Text) --- */
-/* Y-axis: Negative is UP, Positive is DOWN */
-/* X-axis: Negative is LEFT, Positive is RIGHT */
 
 .s1 { margin-top: -220px; margin-left: 0px; }      /* Top Center */
-.s2 { margin-top: 0px;    margin-left: 550px; }    /* Center Right */
+.s2 { margin-top: 0px;    margin-left: 600px; }    /* Center Right - PUSHED OUT */
 .s3 { margin-top: 220px;  margin-left: 200px; }    /* Bottom Right */
 .s4 { margin-top: 220px;  margin-left: -200px; }   /* Bottom Left */
-.s5 { margin-top: 0px;    margin-left: -550px; }   /* Center Left */
+.s5 { margin-top: 0px;    margin-left: -600px; }   /* Center Left - PUSHED OUT */
 
-/* Specific Scaling for the bottom left stone if it still looks too big */
-.s4 img {
-    height: 110px !important; 
+/* IMPORTANT: Ensure this rule is inside your .home-title block */
+.home-title {
+  white-space: nowrap !important; /* Forces the long title to stay on one line */
+  letter-spacing: 0.5em !important;
 }
