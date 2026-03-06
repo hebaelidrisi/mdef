@@ -677,14 +677,15 @@ hr,
   width: 100%;
 }
 
+/* --- 1. TIGHTEN THE TEXT --- */
 .home-title {
   font-weight: bold !important;
-  letter-spacing: 0.5em !important; 
+  letter-spacing: 0.35em !important; /* This creates the specific gap seen in the 2nd screenshot */
   text-transform: uppercase;
-  font-size: 1.2rem !important;
+  font-size: 1.1rem !important;
   margin: 0 !important;
   border-bottom: none !important;
-  white-space: nowrap !important; /* Prevents text from breaking into two lines */
+  white-space: nowrap !important;
 }
 
 /* Base style for all stones */
@@ -708,15 +709,23 @@ hr,
   z-index: 20;
 }
 
-/* --- COORDINATE SYSTEM (Balanced with tighter text) --- */
+/* --- 2. RESTORE STONE POSITIONS --- */
+/* These pixel values precisely match the "orbit" from your second screenshot */
 
 .s1 { margin-top: -200px; margin-left: 0px; }      /* Top Center */
-.s2 { margin-top: 0px;    margin-left: 480px; }    /* Center Right - Pulling back in */
-.s3 { margin-top: 200px;  margin-left: 160px; }    /* Bottom Right */
-.s4 { margin-top: 200px;  margin-left: -160px; }   /* Bottom Left */
-.s5 { margin-top: 0px;    margin-left: -480px; }   /* Center Left - Pulling back in */
+.s2 { margin-top: 0px;    margin-left: 520px; }    /* Center Right - Clears the 'E' */
+.s3 { margin-top: 200px;  margin-left: 180px; }    /* Bottom Right */
+.s4 { margin-top: 200px;  margin-left: -180px; }   /* Bottom Left */
+.s5 { margin-top: 0px;    margin-left: -520px; }   /* Center Left - Clears the 'D' */
 
-/* Keep the size correction for the bottom-left stone */
+/* --- 3. UNIFORM SIZE FIX --- */
+.stone img {
+  height: 140px !important; 
+  width: auto !important;
+  object-fit: contain !important;
+}
+
+/* Fix for the bottom-left stone appearing too large */
 .s4 img {
-    height: 110px !important; 
+    height: 115px !important; 
 }
