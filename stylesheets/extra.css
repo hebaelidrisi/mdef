@@ -654,20 +654,19 @@ hr,
   transform: translateY(-15px); /* Moves it up */
 }
 
-/* --- THE CIRCULAR ORBIT LAYOUT --- */
+/* --- THE PENTAGON ORBIT (5 STONES) --- */
 
-/* 1. The Main Container */
 .orbit-container {
   position: relative;
   width: 100%;
-  height: 80vh; /* Takes up most of the screen height */
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 4em 0;
+  margin: 2em 0;
 }
 
-/* 2. The Central Text Styling */
+/* Restored Bold & Separated Center Text */
 .orbit-center {
   position: absolute;
   text-align: center;
@@ -675,47 +674,41 @@ hr,
 }
 
 .home-title {
-  font-size: 2.2rem !important;
-  font-weight: 700 !important;
+  font-weight: bold !important;
+  letter-spacing: 0.5em !important; /* Restored wide separation */
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  font-size: 1.2rem !important;
   margin: 0 !important;
   border-bottom: none !important;
 }
 
-.home-subtitle {
-  font-size: 1rem !important;
-  color: #666;
-  letter-spacing: 0.1em;
-  margin-top: 0.5rem !important;
-}
-
-/* 3. Base Styles for All Orbiting Stones */
 .stone {
   position: absolute;
   transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  display: block;
 }
 
 .stone img {
-  height: 180px; /* Size of the orbiting stones */
+  height: 200px; /* Adjust size as needed */
   width: auto;
   object-fit: contain !important;
   background-color: transparent !important;
 }
 
-/* Lift/Glow effect on hover */
+/* --- FIXED HOVER: Keeps alignment while lifting --- */
 .stone:hover {
-  transform: scale(1.15);
+  transform: scale(1.1) translateY(-10px);
 }
 
-/* 4. CIRCULAR COORDINATES (X, Y) */
-/* Adjust these percentages to change the shape of the circle */
-.s1 { top: 0%;   left: 50%;  transform: translateX(-50%); }      /* Top Center */
-.s2 { top: 15%;  left: 85%; }                                   /* Top Right */
-.s3 { top: 50%;  left: 100%; transform: translateY(-50%); }     /* Mid Right */
-.s4 { top: 85%;  left: 85%; }                                   /* Bottom Right */
-.s5 { top: 100%; left: 50%;  transform: translateX(-50%); }     /* Bottom Center */
-.s6 { top: 85%;  left: 15%; }                                   /* Bottom Left */
-.s7 { top: 50%;  left: 0%;   transform: translateY(-50%); }     /* Mid Left */
-.s8 { top: 15%;  left: 15%; }
+/* Center-aligned stones need a special hover to preserve their X-centering */
+.s1:hover, .s3:hover, .s4:hover {
+  transform: translateX(-50%) scale(1.1) translateY(-10px) !important;
+}
+
+/* --- 5-POINT CIRCULAR COORDINATES --- */
+.s1 { top: 0%;   left: 50%; transform: translateX(-50%); }      /* Top Center */
+.s2 { top: 35%;  left: 95%; transform: translateY(-50%); }     /* Middle Right */
+.s3 { top: 100%; left: 75%; transform: translateX(-50%); }    /* Bottom Right-ish */
+.s4 { top: 100%; left: 25%; transform: translateX(-50%); }    /* Bottom Left-ish */
+.s5 { top: 35%;  left: 5%;  transform: translateY(-50%); }     /* Middle Left */
 
