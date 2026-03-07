@@ -658,12 +658,12 @@ hr,
   transform: translateY(-15px); /* Moves it up */
 }
 
-/* --- THE FINAL STABILIZED ORBIT --- */
+/* --- THE STAGGERED CLEARANCE ORBIT --- */
 
 .orbit-container {
   position: relative;
   width: 100%;
-  height: 600px; /* Keeps stones from stretching too far down */
+  height: 650px; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -677,10 +677,9 @@ hr,
   width: 100%;
 }
 
-/* --- 1. TIGHTEN THE TEXT --- */
 .home-title {
   font-weight: bold !important;
-  letter-spacing: 0.35em !important; /* This creates the specific gap seen in the 2nd screenshot */
+  letter-spacing: 0.35em !important; 
   text-transform: uppercase;
   font-size: 1.1rem !important;
   margin: 0 !important;
@@ -688,7 +687,6 @@ hr,
   white-space: nowrap !important;
 }
 
-/* Base style for all stones */
 .stone {
   position: absolute;
   left: 50%;
@@ -698,35 +696,27 @@ hr,
 }
 
 .stone img {
-  height: 140px !important; /* Forces uniform size */
-  width: auto !important;
-  object-fit: contain !important;
-}
-
-/* Stable Hover: Prevents stones from "jumping" right or left */
-.stone:hover {
-  transform: translate(-50%, -50%) scale(1.15) !important;
-  z-index: 20;
-}
-
-/* --- 2. RESTORE STONE POSITIONS --- */
-/* These pixel values precisely match the "orbit" from your second screenshot */
-
-.s1 { margin-top: -200px; margin-left: 0px; }      /* Top Center */
-.s2 { margin-top: 0px;    margin-left: 520px; }    /* Center Right - Clears the 'E' */
-.s3 { margin-top: 200px;  margin-left: 180px; }    /* Bottom Right */
-.s4 { margin-top: 200px;  margin-left: -180px; }   /* Bottom Left */
-.s5 { margin-top: 0px;    margin-left: -520px; }   /* Center Left - Clears the 'D' */
-
-/* --- 3. UNIFORM SIZE FIX --- */
-.stone img {
   height: 140px !important; 
   width: auto !important;
   object-fit: contain !important;
 }
 
+.stone:hover {
+  transform: translate(-50%, -50%) scale(1.15) !important;
+  z-index: 20;
+}
+
+/* --- COORDINATE SYSTEM (The Stagger Fix) --- */
+/* We move s2 and s5 OFF the center line so they don't hit the text */
+
+.s1 { margin-top: -240px; margin-left: 0px; }      /* Top Center */
+.s2 { margin-top: -80px;  margin-left: 500px; }    /* Top Right - Raised */
+.s3 { margin-top: 240px;  margin-left: 200px; }    /* Bottom Right */
+.s4 { margin-top: 240px;  margin-left: -200px; }   /* Bottom Left */
+.s5 { margin-top: 80px;   margin-left: -500px; }   /* Bottom Left - Lowered */
+
 /* Fix for the bottom-left stone appearing too large */
 .s4 img {
-    height: 115px !important; 
+    height: 110px !important; 
 }
 
