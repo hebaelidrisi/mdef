@@ -76,6 +76,7 @@
     Although I am satisfied with the simplicity and effectivity of the artifact, future iteration ideas include integrating a physical housing to encase the brain: the barduino, wires and connections. Additionally, improving the LED connections to ensure they are well secured to the board is another priority. To elicit more immediate reactions in the device and integrate an additional influence to the output, the addition of proximity or movement sensors would be nice to add another layer of input to the device and allow for a more human-interactive intervention. 
 
 
+
 === "Cognitive Orgies II"
 
     ## *“Seeding Memories"*
@@ -87,3 +88,5 @@
     ![](../images/cg2-avatar-tree.jpg)
 
     Inspired by the Guardian ‘Tree of Souls’ in Avatar as a space for storing community memory, the intention was to store personal data through encryption to form a secret communication between tree and human, creating an intimacy between the two different intelligences. 
+
+    
