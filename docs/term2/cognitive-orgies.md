@@ -78,39 +78,46 @@
 
 
 === "Cognitive Orgies II"
+        
+    ## *“Seeding Memories”*
 
-   ## *“Seeding Memories”*
-   What if you could whisper your secrets to a tree that promises to store it forever in the depths of it's heart in a language no one else understands? What if you could go back to hear it whisper it back to you again?
+    What if you could whisper your secrets to a tree that promises to store it forever in the depths of it's heart in a language no one else understands? What if you could go back to hear it whisper it back to you again?
 
-   ![](../images/cg2-IMG_7411.jpg)
+    ![](../images/cg2-IMG_7411.jpg)
 
-   Building off of the ongoing desire to restore a more meaningful relationship with Earth, “Seeding Memories” is a secret memory encrypting system that merges real-time human audio with the living pulses of a tree, forming a private memory archive in the tree - the ecological equivalent of the cloud.
+    Building off of the ongoing desire to restore a more meaningful relationship with Earth, “Seeding Memories” is a secret memory encrypting system that merges real-time human audio with the living pulses of a tree, forming a private memory archive in the tree - the ecological equivalent of the cloud.
 
-   ![](../images/cg2-avatar-tree.jpg)
+    ![](../images/cg2-avatar-tree.jpg)
 
-   Inspired by the Guardian ‘Tree of Souls’ in Avatar as a space for storing community memory, the intention was to store personal data through encryption to form a secret communication between tree and human, creating an intimacy between the two different intelligences. 
+    Inspired by the Guardian ‘Tree of Souls’ in Avatar as a space for storing community memory, the intention was to store personal data through encryption to form a secret communication between tree and human, creating an intimacy between the two different intelligences. 
 
-   ### **Process, Evolution & Traces**
+    ### **Process, Evolution & Traces**
     - [Hackster.io Repository](https://www.hackster.io/swarnamanjaric/seeding-memories-0b3c5d)*
-    
-  ![](../images/cg2-IMG_7309.jpg)
-    
-   Since we already did the exercise of mapping our individual interests in the previous edition, this time we jumped straight into identifying the overlap we wanted to focus on. Individually, we were exploring multi-scalar scars, connection to earth, and the invisible underground. While brainstorming, we discussed ideas of earthly intelligence, ancestral intelligence and ecological intelligence. One particular point that interested us was how historically over time, ecological landscapes are known to have preserved and communicated the stories of ancestors that inhabited the space before. Collectively, we aligned on using natural elements to store memory and get a response from the element. After a back and forth discussion, the tree felt like the right choice to build off of the previous exploration and due to its alleged wisdom.
 
-   ![](../images/cg2-tree-seed.jpg)
+    ![](../images/cg2-IMG_7309.jpg)
 
-   When thinking about the physical form and shape of the artifact, we opted for something that resembles the seeds of the avatar tree. Throughout the days and design process, we kept finding tree seeds appear magically in front of us. It felt like some sign from the universe to push forward with this as a visualization of the artifact. To achieve the visual effect from the image of the thin strings of light, we used fiber optic cables that connected to the LED lights, which may be one of the only things we did not have any technical issues with during the developmental process. Black thermal shrinkable sealing boot was used to cover the LED and amplify the light to the cables.
+    Since we already did the exercise of mapping our individual interests in the previous edition, this time we jumped straight into identifying the overlap we wanted to focus on. Individually, we were exploring multi-scalar scars, connection to earth, and the invisible underground. While brainstorming, we discussed ideas of earthly intelligence, ancestral intelligence and ecological intelligence. One particular point that interested us was how historically over time, ecological landscapes are known to have preserved and communicated the stories of ancestors that inhabited the space before. Collectively, we aligned on using natural elements to store memory and get a response from the element. After a back and forth discussion, the tree felt like the right choice to build off of the previous exploration and due to its alleged wisdom.
 
-   ![](../images/cg2-IMG_7392.jpg)
+    ![](../images/cg2-tree-seed.jpg)
 
-   There were a lot of technical resistances and push backs throughout the process that forced us to change path or learn to push back. Cognitive, Moral, Technical. Every trace taught us something. 
+    When thinking about the physical form and shape of the artifact, we opted for something that resembles the seeds of the avatar tree. Throughout the days and design process, we kept finding tree seeds appear magically in front of us. It felt like some sign from the universe to push forward with this as a visualization of the artifact. To achieve the visual effect from the image of the thin strings of light, we used fiber optic cables that connected to the LED lights, which may be one of the only things we did not have any technical issues with during the developmental process. Black thermal shrinkable sealing boot was used to cover the LED and amplify the light to the cables.
+
+    ![](../images/cg2-IMG_7392.jpg)
+
+    There were a lot of technical resistances and push backs throughout the process that forced us to change path or learn to push back. Cognitive, Moral, Technical. Every trace taught us something. 
+
     1. The EMG sensor - although we did end up sticking with this sensor till the end and did not change it, maybe we should have. It took Swarna a lot of back and forth, with the help of Mikel, to get it calibrated to get readings that made sense. What’s interesting is that the sensor is very sensitive and it detects micro-voltaic changes. Any loose contact affected the readings drastically. Not only that, but we realized that having the laptop connected to power for charging also affected the sensor reading data, making the sensor weaker. Even though we discussed changing the sensor, we didn’t end up doing it because we wanted to see this one through to the end - a moral decision. In retrospect, we easily could have tested using another sensor. 
     2. Sensor reading plant - since the EMG muscle sensor is intended to be used on humans to detect microvolts from human muscle contraption, the readings it takes from a static plant varies significantly, let alone from a tree. We had to be mindful of this while taking readings from the plant and adjust our expectations accordingly - a mental shift that took us a while to accept.
     3. Amplifier - this was one of the biggest frustrations we had. The idea was that the DF player robot would use the SD card to store the incoming audios, serving as the database for the data, enabling future access and decryption. It didn’t work. Despite several hours and different consultations from Mikel and Adai, the DFplayer was not connecting to the Barduino. We thought maybe something was wrong with that particular DFplayer so we tested two more, three in total. Not one of them worked. A pivot was in order. We decided it was time to let go and find an alternative means. That included the speaker was testing in parallel. 
     4. Program - As a result of the struggle with the DFplayer, we decided to switch programs as well, from Python to TouchDesigner, since TouchDesigner had an embedded option to record data within the program. After we had already modified the live audio data coming in from the headset to a distorted audio using a python code, this also forced us to start over with the coding, hacking and setup of the audio input + output that Beste had already established in Python. However, it was not the only reason for the program switch. When connecting the sensor data to Python, it was stiffer to play with the audio, hence why we decided to switch to TouchDesigner, which has more flexibility in that sense. From Python to TouchDesigner and from speaker to headset. We were forced to change and adapt once again. 
+
     I appreciate that as a team, we were able to recognize when too much time was being spent trying to hack something and consciously decide when to stop fighting the resistances. We give it our best shot and move on. Acknowledge, Decide, Pivot. 
 
-   ### **Moving Forward**
-   I don’t see this as the end for “Seeding Memories”. In its current state, it evokes an emotional response at the mere thought of the intimate connection being shared with the tree. Despite the multitude of technical limitations we experienced this time around, from restrictions on microphones and speakers to data storage and sensor outputs, the conceptual backing is powerful. With all the right inputs, it has the potential to become a mobile tool for communicating with ecological intelligence. One of the key points of the design that we didn’t have the time to finalize but would love to bring to reality, was the technical means of storage. We did not set up the system for storing the original input audios of the shared human memory. However, one of the main purposes of the tree as the ‘cloud’ is to hold the secret memories for access at any time in the future after the interaction for decryption. This is for when you decide to return and hear the tree whisper your memory back to you. 
+    ### **Moving Forward**
+    I don’t see this as the end for “Seeding Memories”. In its current state, it evokes an emotional response at the mere thought of the intimate connection being shared with the tree. Despite the multitude of technical limitations we experienced this time around, from restrictions on microphones and speakers to data storage and sensor outputs, the conceptual backing is powerful. With all the right inputs, it has the potential to become a mobile tool for communicating with ecological intelligence. One of the key points of the design that we didn’t have the time to finalize but would love to bring to reality, was the technical means of storage. We did not set up the system for storing the original input audios of the shared human memory. However, one of the main purposes of the tree as the ‘cloud’ is to hold the secret memories for access at any time in the future after the interaction for decryption. This is for when you decide to return and hear the tree whisper your memory back to you. 
 
-   ![](../images/cg2-IMG_7409.jpg)
+    ![](../images/cg2-IMG_7409.jpg)
+
+    ### **CCL Badge**
+
+    ![](../images/cg2-IMG_7409.jpg)
