@@ -81,7 +81,7 @@
         
     ## *“Seeding Memories”*
 
-    What if you could whisper your secrets to a tree that promises to store it forever in the depths of it's heart in a language no one else understands? What if you could go back to hear it whisper it back to you again?
+    *What if you could whisper your secrets to a tree that promises to store it forever in the depths of it's heart in a language no one else understands? What if you could go back to hear it whisper it back to you again?*
 
     ![](../images/cg2-IMG_7411.jpg)
 
@@ -96,7 +96,7 @@
 
     ![](../images/cg2-IMG_7309.jpg)
 
-    Since we already did the exercise of mapping our individual interests in the previous edition, this time we jumped straight into identifying the overlap we wanted to focus on. Individually, we were exploring multi-scalar scars, connection to earth, and the invisible underground. While brainstorming, we discussed ideas of earthly intelligence, ancestral intelligence and ecological intelligence. One particular point that interested us was how historically over time, ecological landscapes are known to have preserved and communicated the stories of ancestors that inhabited the space before. Collectively, we aligned on using natural elements to store memory and get a response from the element. After a back and forth discussion, the tree felt like the right choice to build off of the previous exploration and due to its alleged wisdom.
+    Since we already did the exercise of mapping our individual interests in the previous edition, this time we jumped straight into identifying the overlap we wanted to focus on. Individually, we were exploring multi-scalar scars, connection to earth, and the invisible underground. While brainstorming, we discussed ideas of earthly intelligence, ancestral intelligence and ecological intelligence. One particular point that interested us was how historically over time, ecological landscapes are known to have preserved and communicated the stories of ancestors that inhabited the space before. Collectively, we aligned on using natural elements to store memory and get a response back from the element. After a back and forth discussion, the tree felt like the right choice to build off of the previous exploration and also because of its alleged wisdom.
 
     ![](../images/cg2-tree-seed.jpg)
 
@@ -120,4 +120,6 @@
 
     ### **CCL Badge**
 
-    ![](../images/cg2-IMG_7409.jpg)
+    ![](../images/cg2-ccl-badges.png)
+    
+
