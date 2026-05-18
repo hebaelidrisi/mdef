@@ -123,12 +123,12 @@
     ![](../images/cg2-ccl-badges.png)
 
 === "Cognitive Orgies III"
-        
+
     ## *“Sensescape”*
 
     *Imagining a world navigated through the tips of our fingers and the soles of our feet, leaving our sight behind. Composing live symphonies in real time using our body’s unique movement across natural textures.*
 
-   *image of final outcome
+    *image of final outcome
 
     Stemming from the intention to connect bodily sensations to nature’s raw materiality, “Sensescape” is an interactive multi-sensory installation that translates tactile exploration into live auditory landscapes. The human body is transformed into a conductor of its own environment - the physical equivalent of a musical instrument. Inspired by the tactile playfulness of Twister, the experience guides the creation of live soundscapes based on the placement and movement of participants' hands and feet. 
 
