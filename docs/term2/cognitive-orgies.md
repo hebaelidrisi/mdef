@@ -128,12 +128,7 @@
 
     *Imagining a world navigated through the tips of our fingers and the soles of our feet, leaving our sight behind. Composing live symphonies in real time using our body’s unique movement across natural textures.*
 
-    *image of final outcome
-
     Stemming from the intention to connect bodily sensations to nature’s raw materiality, “Sensescape” is an interactive multi-sensory installation that translates tactile exploration into live auditory landscapes. The human body is transformed into a conductor of its own environment - the physical equivalent of a musical instrument. Inspired by the tactile playfulness of Twister, the experience guides the creation of live soundscapes based on the placement and movement of participants' hands and feet. 
-
-    *image of twister reference
-    *image of dark enclosure reference
 
     While the initial direction was to immerse participants in a dark enclosure navigated through bare feet, a part of the body we are not accustomed to sensing with, the ultimate intention was to heighten sensory awareness by isolating touch from vision, augmented by real-time audio generation. Every soundscape is entirely unique; no two bodies share the same composition, and no two interactions with the materials will ever yield the exact same acoustic response. An unrepeatable dialogue between the composition of each human body and the textures of the Earth. 
 
@@ -142,11 +137,7 @@
 
     After breaking down into smaller groups based on the specific ideas we were interested in exploring, we jumped straight into defining the kind of experience and performance we wanted to create. We focused on the feelings we wanted the live performance to evoke and some of the key words we defined were collaborative, curiosity, triggering, emotional awareness, intimacy and infamiliarity.  
 
-    *insert hexagon tiles reference
-
     Collectively we looked at references online to visualize a shape/structure for the concept. After coming across an image of hexagonal tiles with different materials placed on them, we decided to go with the hexagon shape; more playful than a square and more usable surface area than a circle. I immediately made some hexagons on Rhino, measured for a size that would work for a bigger foot and hand size and laser cut some prototypes for us to work with. We covered the initial hexagons with aluminium foil to make the units conductive and used those to test the sensors. That was the easiest part. 
-
-    *insert image of hexagons on Rhino
 
     Throughout the process, we had to push through a number of mental, technical and moral challenges. 
     
@@ -160,7 +151,7 @@
     Although during the presentation there were technical difficulties that did not allow for the creation of the live soundscape in real-time the way we had designed it, Beste was able to resolve all the issues we had faced and set it up successfully for us to use during the live performance of our myth two days after. We used the modules for participants to explore and hear the materiality of the landscape they were immersed in, and the result was beautiful unrepeatable sonic compositions. Every challenge during this process was a valuable lesson that taught us something we never knew about previously. For the future, we know what things to keep an eye out for.  
     I imagine building ‘Sensescape’ as a bigger unit that allows for more participants, ideally 4-6  people at a time, and it becoming a modern day intense and immersive version of Twister. I would love to play it myself in a bigger group and have the full experience with the live audio compositions. 
     
-    *if anyone reading this would like to collaborate on taking this further, please reach out and lets make it happen!*
+    **if anyone reading this would like to collaborate on taking this further, please reach out and lets make it happen!* 
 
 
 
