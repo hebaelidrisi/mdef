@@ -94,4 +94,30 @@
     Rapid urban development can erode the deep cultural and ecological ties humans have to their environment. The removal of the living memory and identity of a community that lives in physical landmarks, traditional shops or communal gathering spots creates a growing sense of alienation. Loss of heritage erases critical anchors of people’s identities. Similarly, when nature is replaced by concrete and spurious material, the authentic frame of human existence is lost. We forget our biological roots and cycles, which form essential parts of our history and identity, and in turn, lose our sense of self. 
     
     Heritage and nature are the invisible threads that sustain our sense of belonging. Rapid urbanization contributes to the erasure of our place on Earth. Resistance through reconnecting to Earth’s physical matter can help us pull and tighten these threads, anchoring our identity within the living biosphere. 
+
+=== "New Deck"
+
+    ## New Weak Signals Deck
+
+
+    **10 New Weak Signals**
+
+    ![](../images/aowsdeck1.png)
+    ![](../images/aowsdeck2.png)
+
+    **5 New Triggers**
+
+    ![](../images/aowstriggers.png)
+
+    **5 New Opportunities**
+
+    ![](../images/aowsopps.png)
+
+    ## Community of Practice Testing
+
+    
+
+
+
+
     
