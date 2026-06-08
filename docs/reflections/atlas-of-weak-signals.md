@@ -113,9 +113,46 @@
 
     ![](../images/aowsopps.png)
 
-    ## Community of Practice Testing
+    ## Community of Practice Testing & Reflection
 
-    
+    In order to test the new deck created, I facilitated a short 20 minute digital session with a small group of 3 colleagues from the design and technology community. 
+
+    **Session Structure & Outcomes**
+
+    1. Introduction - explained how the game works and how it is used as a modern day speculative tool to design alternative futures. I explained the categories of my new card deck and the common theme I am looking at.
+
+    2. Card Draw - we did a random draw from the new card deck displayed above that resulted in the below unique combination:
+
+    - Weak Signal: *Analog Enclaves*
+    - Trigger: *Identity Crises*
+    - Opporunity: *Co-Creation*
+
+     <div class="horizontal-row" markdown>
+    ![](../images/aowsdecktesttrig.png)
+    ![](../images/aowsdecktestws.png)
+    ![](../images/aowsdecktestopp.png)
+    </div>
+
+    3. Speculative Ideation - the participants discussed the ideas that arose from the combination of these 3 cards, discussing the non-digital scenarios where communities must collectively work together to rebuild their sense of self, away from the digital world.
+    - Key Output: Remote Shed - a physical shared sanctuary where people experiencing severe digital burnout or fragmented online identities gather to co-design tangible objects through hands-on or analog techniques. Collaborative workshops are promoted in place of individual creation, creating shared rituals that redefine the identity of these individuals outside of highly controlled and monitored spaces. 
+
+    4. Reflection & Closing - evaluating how well the cards worked together and the discussions they generated
+
+    **Reflections**
+
+    Some of the key takeaways or reflections from the participants were the following:
+
+    - How well the combination of spatial vs. psychological prompts worked together and how relatable they felt to the participants in relation to modern day reality. The "Co-Creation" opportunity card forced participants to think on a more collective/community level rather than isolated individual acts.
+
+    - The card prompts were clear, relatable and easy to understand work with. They did not spend time trying to analyze or understand what the words meant. 
+
+    - Although it worked to do it digitally, face to face interaction might have sparked more dynamic interactions and improved the overall flow and pace of the experience. 
+
+    - The combination of internal problems like identity criss with physical space and collaborative frameworks helped in thinking of or reframing design as a means for social fabric repair. 
+
+    Overall, the session sparked interesting discussions and seemed to work well with this specific community of designers who also work heavily with technology, screens and the digital world. 
+
+
 
 
 
