@@ -123,10 +123,10 @@
 
     2. Card Draw - we did a random draw from the new card deck displayed above that resulted in the below unique combination:
 
-    - Weak Signal: *Analog Enclaves*
-    - Trigger: *Identity Crises*
-    - Opporunity: *Co-Creation*
-
+    Weak Signal: **Analog Enclaves**
+    Trigger: **Identity Crises**
+    Opporunity: **Co-Creation**
+    
      <div class="horizontal-row" markdown>
     ![](../images/aowsdecktesttrig.png)
     ![](../images/aowsdecktestws.png)
@@ -134,7 +134,7 @@
     </div>
 
     3. Speculative Ideation - the participants discussed the ideas that arose from the combination of these 3 cards, discussing the non-digital scenarios where communities must collectively work together to rebuild their sense of self, away from the digital world.
-    - Key Output: Remote Shed - a physical shared sanctuary where people experiencing severe digital burnout or fragmented online identities gather to co-design tangible objects through hands-on or analog techniques. Collaborative workshops are promoted in place of individual creation, creating shared rituals that redefine the identity of these individuals outside of highly controlled and monitored spaces. 
+    - Key Output: **Remote Shed** - a physical shared sanctuary where people experiencing severe digital burnout or fragmented online identities gather to co-design tangible objects through hands-on or analog techniques. Collaborative workshops are promoted in place of individual creation, creating shared rituals that redefine the identity of these individuals outside of highly controlled and monitored spaces. 
 
     4. Reflection & Closing - evaluating how well the cards worked together and the discussions they generated
 
