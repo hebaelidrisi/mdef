@@ -7,7 +7,7 @@ Translating live electric currents between human skin and changing landscapes in
 
 As an evolution and culmination of the previous project explorations, with the intention to connect bodily sensations to the raw materiality of nature’s landscapes, “Memoirs of Disappearing Earth” is an interactive sensory intervention that translates tactile exploration into real-time audio landscapes. The human body is transformed into a conductor of its own environment - the catalyst of a musical instrument. 
 
-https://vimeo.com/1201435404?fl=pl&fe=vl
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/1203038582?h=4140176cf4" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
 
 Although the primary and immediate outcome of the interactive ritual is unique sound compositions, the bigger picture is a permanent digital archive of timestamped records: a sonic map encapsulating every human-material meeting. No two encounters will ever sound identical because no two touches, bodies or landscapes are the same. The practice scales intimate, first-person encounters of collecting childhood relics into an evolved collective ritual of awakening and accountability. What is produced is an unrepeatable dialogue between the unique composition of each human body and the textures of the Earth.   
 
