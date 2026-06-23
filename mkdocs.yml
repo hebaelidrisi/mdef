@@ -11,20 +11,18 @@ repo_url: 'https://github.com/fablabbcn/mdef-template'
 nav:
   - Home: index.md
   - Term 1:
-      - Design Studio I: projects/design-studio-i.md
       - Living with your own ideas: reflections/living-with-your-own-ideas.md
       - Unpacking Tech Systems: reflections/unpacking-tech-systems.md
       - Atlas of Weak Signals: reflections/atlas-of-weak-signals.md
       - Fundamentals for Future Makers: reflections/fundamentals-for-future-makers.md
       - Narratives I: reflections/narratives-i.md
   - Term 2:
-      - Design Studio II: projects/design-studio-ii.md
       - Extended Intelligences II: term2/extended-intelligences-ii.md
       - Other Species II: term2/other-species-ii.md
       - Cognitive Orgies: term2/cognitive-orgies.md
       - Situated Design Practices: term2/situated-design-practices.md
   - Term 3:
-      - Fabricating MDEFest: projects/fabricating-mdefest.md
+      - Fabricating MDEFest: term3/fabricating-mdefest.md
     
   - About: about/me.md
   - Contact: contact.md
